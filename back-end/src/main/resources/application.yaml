@@ -1,0 +1,12 @@
+spring:
+  application:
+    name:back-end
+  # Database
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-security?characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
