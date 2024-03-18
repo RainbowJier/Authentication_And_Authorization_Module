@@ -1,4 +1,9 @@
-# 通用权限校验模块
+# Authentication And Authorization Module
+
+1. ✅ Register.
+2. [x] log4j2 to print Logs.
+
+
 
 ## 1. 技术栈
 
@@ -26,36 +31,6 @@ Front-end Development Document: https://docs.vitejs.dev/
 | **MySQL**           | MySQL 是一个流行的开源关系型数据库管理系统，广泛应用于Web开发和其他各种类型的应用程序中。              |
 
 Back-end Development Document: https://docs.vitejs.dev/
-
-### 1.3 Database
-
-1. Table **user**.
-    ```SQL
-    CREATE TABLE `user`
-    (
-        `id`           BIGINT(20) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
-        `user_name`    VARCHAR(64) NOT NULL DEFAULT 'NULL' COMMENT 'Username',
-        `nick_name`    VARCHAR(64) NOT NULL DEFAULT 'NULL' COMMENT 'Nickname',
-        `password`     VARCHAR(64) NOT NULL DEFAULT 'NULL' COMMENT 'Password',
-        `status`       CHAR(1)              DEFAULT '0' COMMENT 'Account Status (0 Active 1 Inactive)',
-        `email`        VARCHAR(64)          DEFAULT NULL COMMENT 'Email',
-        `phone_number` VARCHAR(32)          DEFAULT NULL COMMENT 'Phone Number',
-        `sex`          CHAR(1)              DEFAULT NULL COMMENT 'User Gender (0 Male, 1 Female, 2 Unknown)',
-        `avatar`       VARCHAR(128)         DEFAULT NULL COMMENT 'Avatar',
-        `user_type`    CHAR(1)     NOT NULL DEFAULT '1' COMMENT 'User Type (0 Administrator, 1 Regular User)',
-        `create_by`    BIGINT(20) DEFAULT NULL COMMENT 'Creator User ID',
-        `create_time`  DATETIME             DEFAULT NULL COMMENT 'Creation Time',
-        `update_by`    BIGINT(20) DEFAULT NULL COMMENT 'Updater',
-        `update_time`  DATETIME             DEFAULT NULL COMMENT 'Last Modified Time',
-        `del_flag`     INT(11) DEFAULT '0' COMMENT 'Deletion Flag (0 Not Deleted, 1 Deleted)',
-        PRIMARY KEY (`id`)
-    ) ENGINE=INNODB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COMMENT='Users Table'
-    ```
-
-2. Table ...
-
-***
-
 
 
 

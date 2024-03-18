@@ -10,3 +10,6 @@ spring:
 
 
 
+logging:
+  level:
+    com.example.backend: DEBUG

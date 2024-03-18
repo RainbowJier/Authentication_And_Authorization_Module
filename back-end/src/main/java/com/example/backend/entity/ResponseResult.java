@@ -27,13 +27,19 @@ public class ResponseResult<T> {
      */
     private T data;
 
-    public ResponseResult(final Integer code, final String msg) {
+    public ResponseResult(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
     }
 
-    public ResponseResult(final Integer code, final T data) {
+    public ResponseResult(Integer code, T data) {
         this.code = code;
+        this.data = data;
+    }
+
+    public ResponseResult(Integer code, String msg, T data) {
+        this.code = code;
+        this.msg = msg;
         this.data = data;
     }
 
@@ -41,7 +47,7 @@ public class ResponseResult<T> {
         return code;
     }
 
-    public void setCode(final Integer code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
@@ -49,7 +55,7 @@ public class ResponseResult<T> {
         return msg;
     }
 
-    public void setMsg(final String msg) {
+    public void setMsg( String msg) {
         this.msg = msg;
     }
 
@@ -57,13 +63,9 @@ public class ResponseResult<T> {
         return data;
     }
 
-    public void setData(final T data) {
+    public void setData(T data) {
         this.data = data;
     }
 
-    public ResponseResult(final Integer code, final String msg, final T data) {
-        this.code = code;
-        this.msg = msg;
-        this.data = data;
-    }
+
 }
