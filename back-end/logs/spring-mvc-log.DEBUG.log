@@ -1,0 +1,46 @@
+2024-03-21 22:08:41.216 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:08:45.561 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:09:22.546 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:09:22.559 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-03-21 22:09:22.573 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-03-21 22:40:14.575 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:40:16.238 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:40:30.270 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:40:31.860 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:41:39.648 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:41:41.424 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:41:58.463 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:42:00.216 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:42:24.287 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:42:26.882 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:43:15.806 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:43:15.818 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-03-21 22:43:15.830 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-03-21 22:46:22.166 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:46:24.053 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:46:30.984 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:46:32.777 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:51:37.869 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:51:39.558 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:52:25.040 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:52:26.862 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:54:48.710 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:56:06.220 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-03-21 22:57:19.134 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:57:19.146 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==> Parameters: (String)
+2024-03-21 22:57:19.157 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> <==      Total: 0
+2024-03-21 22:57:19.269 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.insert >>>>> ==>  Preparing: INSERT INTO user ( id, user_name, password ) VALUES ( ?, ?, ? ) 
+2024-03-21 22:57:19.269 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.insert >>>>> ==> Parameters: 1770827031191838721(Long), (String), $2a$10$rgzatxhTL61F5mTBpAgz1Oy4sBemitnK.prbHxXNLdhklVyLkZEhG(String)
+2024-03-21 22:57:19.274 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.insert >>>>> <==    Updates: 1
+2024-03-21 22:57:38.255 | DEBUG | http-nio-8080-exec-4 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:57:38.256 | DEBUG | http-nio-8080-exec-4 | c.e.b.m.U.selectOne >>>>> ==> Parameters: (String)
+2024-03-21 22:57:38.258 | DEBUG | http-nio-8080-exec-4 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-03-21 22:57:41.372 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:57:41.372 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-03-21 22:57:41.373 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-03-21 22:57:46.363 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:57:46.364 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> ==> Parameters: (String)
+2024-03-21 22:57:46.365 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-03-21 22:57:52.346 | DEBUG | http-nio-8080-exec-7 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-03-21 22:57:52.347 | DEBUG | http-nio-8080-exec-7 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-03-21 22:57:52.348 | DEBUG | http-nio-8080-exec-7 | c.e.b.m.U.selectOne >>>>> <==      Total: 1

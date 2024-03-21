@@ -1,0 +1,584 @@
+2024-03-21 22:08:41.211 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:08:41.217 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:08:41.240 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-21 22:08:41.240 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-21 22:08:41.258 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-03-21 22:08:41.592 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:08:41.593 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:08:41.607 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:08:41.893 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:08:41.899 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:08:41.899 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:08:41.899 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:08:41.940 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:08:41.940 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 699 ms
+2024-03-21 22:08:42.215 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-03-21 22:08:42.421 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-03-21 22:08:42.905 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d86b89, org.springframework.security.web.context.SecurityContextPersistenceFilter@16ada37f, org.springframework.security.web.header.HeaderWriterFilter@346ffae, org.springframework.security.web.authentication.logout.LogoutFilter@4d6fc901, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66cb37e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@aaf0ae0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a81d406, org.springframework.security.web.session.SessionManagementFilter@7bd8ca81, org.springframework.security.web.access.ExceptionTranslationFilter@7a33ebdf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56337345]
+2024-03-21 22:08:42.925 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:08:42.934 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:08:42.944 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:08:42.950 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 1.99 seconds (JVM running for 2.605)
+2024-03-21 22:08:42.951 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:08:42.953 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:08:43.919 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:08:43.919 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:08:43.920 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-03-21 22:08:44.023 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: nested exception is org.apache.ibatis.builder.BuilderException: Error evaluating expression 'ew.sqlSegment != null and ew.sqlSegment != '' and ew.nonEmptyOfWhere'. Cause: org.apache.ibatis.ognl.OgnlException: sqlSegment [com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: This is impossible to happen]
+2024-03-21 22:08:45.380 | INFO  | Thread-10 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:08:45.429 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-03-21 22:08:45.432 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-03-21 22:08:45.561 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:08:45.562 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:08:45.645 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:08:45.645 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:08:45.647 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:08:45.692 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:08:45.693 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:08:45.693 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:08:45.693 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:08:45.700 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:08:45.700 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 137 ms
+2024-03-21 22:08:45.731 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-03-21 22:08:45.740 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-03-21 22:08:45.805 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1aded778, org.springframework.security.web.context.SecurityContextPersistenceFilter@33d1a986, org.springframework.security.web.header.HeaderWriterFilter@78c273a0, org.springframework.security.web.authentication.logout.LogoutFilter@30d8a74a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c39f2d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@478dcb82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78094fd1, org.springframework.security.web.session.SessionManagementFilter@3a0e7637, org.springframework.security.web.access.ExceptionTranslationFilter@26272a00, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35d7e19f]
+2024-03-21 22:08:45.809 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:08:45.813 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:08:45.815 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:08:45.817 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.283 seconds (JVM running for 5.471)
+2024-03-21 22:08:45.817 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:08:45.818 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:08:45.819 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:09:22.525 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:09:22.525 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:09:22.526 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-03-21 22:09:22.574 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:30:49.061 | WARN  | http-nio-8080-exec-7 | o.s.w.s.m.s.DefaultHandlerExceptionResolver >>>>> Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-03-21 22:40:14.330 | INFO  | Thread-17 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:40:14.390 | INFO  | Thread-17 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown initiated...
+2024-03-21 22:40:14.395 | INFO  | Thread-17 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown completed.
+2024-03-21 22:40:14.575 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:40:14.575 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:40:14.684 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:40:14.684 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:40:14.687 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:40:14.757 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:40:14.758 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:14.758 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:40:14.758 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:40:14.764 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:40:14.765 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 183 ms
+2024-03-21 22:40:14.775 | WARN  | restartedMain | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext >>>>> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'user': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2024-03-21 22:40:14.775 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Stopping service [Tomcat]
+2024-03-21 22:40:14.781 | INFO  | restartedMain | o.s.b.a.l.ConditionEvaluationReportLoggingListener >>>>> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-21 22:40:14.795 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:40:16.238 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:40:16.238 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:40:16.314 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:40:16.314 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:40:16.317 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:40:16.352 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:40:16.352 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:16.352 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:40:16.353 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:40:16.358 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:40:16.358 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 118 ms
+2024-03-21 22:40:16.388 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Starting...
+2024-03-21 22:40:16.398 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Start completed.
+2024-03-21 22:40:16.456 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55b2c6f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b8e7847, org.springframework.security.web.header.HeaderWriterFilter@4fbf6718, org.springframework.security.web.csrf.CsrfFilter@45fb9ee6, org.springframework.security.web.authentication.logout.LogoutFilter@a43ca92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16db4fab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22687dcf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cdab1d5, org.springframework.security.web.session.SessionManagementFilter@56aadca7, org.springframework.security.web.access.ExceptionTranslationFilter@26fd7ca9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@728209fd]
+2024-03-21 22:40:16.460 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:40:16.464 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:16.465 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:40:16.467 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.254 seconds (JVM running for 1896.122)
+2024-03-21 22:40:16.468 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:40:16.468 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:40:16.469 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:40:16.572 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:40:16.572 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:40:16.572 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 0 ms
+2024-03-21 22:40:30.075 | INFO  | Thread-22 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:40:30.128 | INFO  | Thread-22 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown initiated...
+2024-03-21 22:40:30.130 | INFO  | Thread-22 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown completed.
+2024-03-21 22:40:30.270 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:40:30.270 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:40:30.352 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:40:30.352 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:40:30.355 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:40:30.387 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:40:30.387 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:30.387 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:40:30.388 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:40:30.394 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:40:30.394 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 122 ms
+2024-03-21 22:40:30.400 | WARN  | restartedMain | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext >>>>> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'user': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2024-03-21 22:40:30.400 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Stopping service [Tomcat]
+2024-03-21 22:40:30.403 | INFO  | restartedMain | o.s.b.a.l.ConditionEvaluationReportLoggingListener >>>>> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-21 22:40:30.405 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:40:31.859 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:40:31.860 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:40:31.923 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:40:31.923 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:40:31.925 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:40:31.954 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:40:31.954 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:31.954 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:40:31.954 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:40:31.959 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:40:31.959 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 98 ms
+2024-03-21 22:40:31.984 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Starting...
+2024-03-21 22:40:31.992 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Start completed.
+2024-03-21 22:40:32.044 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@315563dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a689061, org.springframework.security.web.header.HeaderWriterFilter@68c30800, org.springframework.security.web.authentication.logout.LogoutFilter@1f905ae4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@248b1489, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54f88b10, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f1274b5, org.springframework.security.web.session.SessionManagementFilter@16e94de, org.springframework.security.web.access.ExceptionTranslationFilter@374d2e13, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7313b39b]
+2024-03-21 22:40:32.047 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:40:32.051 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:40:32.052 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:40:32.054 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.215 seconds (JVM running for 1911.708)
+2024-03-21 22:40:32.054 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:40:32.055 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:40:32.055 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:41:39.476 | INFO  | Thread-30 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:41:39.523 | INFO  | Thread-30 | c.z.h.HikariDataSource >>>>> HikariPool-4 - Shutdown initiated...
+2024-03-21 22:41:39.527 | INFO  | Thread-30 | c.z.h.HikariDataSource >>>>> HikariPool-4 - Shutdown completed.
+2024-03-21 22:41:39.648 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:41:39.648 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:41:39.719 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:41:39.720 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:41:39.722 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:41:39.762 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:41:39.763 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:39.763 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:41:39.763 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:41:39.768 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:41:39.768 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 119 ms
+2024-03-21 22:41:39.795 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-5 - Starting...
+2024-03-21 22:41:39.804 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-5 - Start completed.
+2024-03-21 22:41:39.867 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@555d598, org.springframework.security.web.context.SecurityContextPersistenceFilter@3da59c5c, org.springframework.security.web.header.HeaderWriterFilter@602404c5, org.springframework.web.filter.CorsFilter@eda2a67, org.springframework.security.web.authentication.logout.LogoutFilter@e3dc86a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7388be90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@334a9e08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1076318, org.springframework.security.web.session.SessionManagementFilter@fe46d33, org.springframework.security.web.access.ExceptionTranslationFilter@5bd2b63e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64886c78]
+2024-03-21 22:41:39.871 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:41:39.875 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:39.877 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:41:39.879 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.255 seconds (JVM running for 1979.533)
+2024-03-21 22:41:39.880 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:41:39.880 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:41:39.880 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:41:41.280 | INFO  | Thread-38 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:41:41.326 | INFO  | Thread-38 | c.z.h.HikariDataSource >>>>> HikariPool-5 - Shutdown initiated...
+2024-03-21 22:41:41.330 | INFO  | Thread-38 | c.z.h.HikariDataSource >>>>> HikariPool-5 - Shutdown completed.
+2024-03-21 22:41:41.423 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:41:41.424 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:41:41.487 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:41:41.487 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:41:41.489 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:41:41.520 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:41:41.520 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:41.520 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:41:41.520 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:41:41.526 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:41:41.526 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 101 ms
+2024-03-21 22:41:41.551 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-6 - Starting...
+2024-03-21 22:41:41.559 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-6 - Start completed.
+2024-03-21 22:41:41.610 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77d41be7, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c3e37b8, org.springframework.security.web.header.HeaderWriterFilter@5462bc10, org.springframework.web.filter.CorsFilter@5bdf3cbe, org.springframework.security.web.authentication.logout.LogoutFilter@29d9aa6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47acc829, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef6ef0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@742e7440, org.springframework.security.web.session.SessionManagementFilter@49bf64a9, org.springframework.security.web.access.ExceptionTranslationFilter@3223334d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d1d38f2]
+2024-03-21 22:41:41.613 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:41:41.617 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:41.618 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:41:41.620 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.218 seconds (JVM running for 1981.274)
+2024-03-21 22:41:41.620 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:41:41.621 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:41:41.621 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:41:58.313 | INFO  | Thread-43 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:41:58.360 | INFO  | Thread-43 | c.z.h.HikariDataSource >>>>> HikariPool-6 - Shutdown initiated...
+2024-03-21 22:41:58.364 | INFO  | Thread-43 | c.z.h.HikariDataSource >>>>> HikariPool-6 - Shutdown completed.
+2024-03-21 22:41:58.463 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:41:58.463 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:41:58.536 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:41:58.537 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:41:58.539 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:41:58.569 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:41:58.570 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:58.570 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:41:58.570 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:41:58.575 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:41:58.576 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 112 ms
+2024-03-21 22:41:58.603 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-7 - Starting...
+2024-03-21 22:41:58.612 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-7 - Start completed.
+2024-03-21 22:41:58.665 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1536dc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@30b3f8f4, org.springframework.security.web.header.HeaderWriterFilter@4e64a2e2, org.springframework.web.filter.CorsFilter@1e3369b, org.springframework.security.web.authentication.logout.LogoutFilter@1fff0ca6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50eabb90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bf270dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@710d6a04, org.springframework.security.web.session.SessionManagementFilter@4ff894b1, org.springframework.security.web.access.ExceptionTranslationFilter@28590c0e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b832f5b]
+2024-03-21 22:41:58.669 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:41:58.672 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:41:58.674 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:41:58.676 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.235 seconds (JVM running for 1998.33)
+2024-03-21 22:41:58.676 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:41:58.677 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:41:58.677 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:42:00.098 | INFO  | Thread-48 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:42:00.145 | INFO  | Thread-48 | c.z.h.HikariDataSource >>>>> HikariPool-7 - Shutdown initiated...
+2024-03-21 22:42:00.149 | INFO  | Thread-48 | c.z.h.HikariDataSource >>>>> HikariPool-7 - Shutdown completed.
+2024-03-21 22:42:00.215 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:42:00.216 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:42:00.278 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:42:00.278 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:42:00.280 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:42:00.310 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:42:00.310 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:00.310 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:42:00.310 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:42:00.315 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:42:00.316 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 99 ms
+2024-03-21 22:42:00.340 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-8 - Starting...
+2024-03-21 22:42:00.348 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-8 - Start completed.
+2024-03-21 22:42:00.401 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d3561ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@647cd465, org.springframework.security.web.header.HeaderWriterFilter@1f4609d2, org.springframework.web.filter.CorsFilter@654c147, org.springframework.security.web.authentication.logout.LogoutFilter@4c2176af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aa5a2a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65823abb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@197b51e3, org.springframework.security.web.session.SessionManagementFilter@756bc7dd, org.springframework.security.web.access.ExceptionTranslationFilter@625995c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dfac4ff]
+2024-03-21 22:42:00.404 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:42:00.408 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:00.409 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:42:00.411 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.216 seconds (JVM running for 2000.065)
+2024-03-21 22:42:00.411 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:42:00.412 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:42:00.412 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:42:24.139 | INFO  | Thread-53 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:42:24.186 | INFO  | Thread-53 | c.z.h.HikariDataSource >>>>> HikariPool-8 - Shutdown initiated...
+2024-03-21 22:42:24.188 | INFO  | Thread-53 | c.z.h.HikariDataSource >>>>> HikariPool-8 - Shutdown completed.
+2024-03-21 22:42:24.287 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 19732 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:42:24.287 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:42:24.366 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:42:24.366 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:42:24.369 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:42:24.411 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:42:24.412 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:24.412 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:42:24.412 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:42:24.417 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:42:24.417 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 128 ms
+2024-03-21 22:42:24.445 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-9 - Starting...
+2024-03-21 22:42:24.454 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-9 - Start completed.
+2024-03-21 22:42:24.516 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@81118e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@c225bd7, org.springframework.security.web.header.HeaderWriterFilter@68515a98, org.springframework.web.filter.CorsFilter@4d78219, org.springframework.security.web.authentication.logout.LogoutFilter@41c988ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e4df5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6703c0e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@284f7723, org.springframework.security.web.session.SessionManagementFilter@35d1b83d, org.springframework.security.web.access.ExceptionTranslationFilter@42d972d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26a3f0f]
+2024-03-21 22:42:24.520 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:42:24.523 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:24.525 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:42:24.527 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.26 seconds (JVM running for 2024.18)
+2024-03-21 22:42:24.527 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:42:24.527 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:42:24.528 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:42:25.239 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:42:26.878 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:42:26.883 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:42:26.903 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-21 22:42:26.903 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-21 22:42:26.911 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-03-21 22:42:27.184 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:42:27.185 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:42:27.197 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:42:27.435 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:42:27.439 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:27.440 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:42:27.440 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:42:27.477 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:42:27.477 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 573 ms
+2024-03-21 22:42:27.717 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-03-21 22:42:27.848 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-03-21 22:42:28.339 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b64de92, org.springframework.security.web.context.SecurityContextPersistenceFilter@60f6674e, org.springframework.security.web.header.HeaderWriterFilter@3f4c226c, org.springframework.web.filter.CorsFilter@3b795ae7, org.springframework.security.web.authentication.logout.LogoutFilter@46af7423, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54e60537, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15366719, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a19f414, org.springframework.security.web.session.SessionManagementFilter@16d56c46, org.springframework.security.web.access.ExceptionTranslationFilter@5953343e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60025cff]
+2024-03-21 22:42:28.374 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:42:28.394 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:42:28.404 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:42:28.410 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 1.743 seconds (JVM running for 2.29)
+2024-03-21 22:42:28.411 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:42:28.412 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:42:32.080 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:42:32.081 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:42:32.081 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 0 ms
+2024-03-21 22:43:15.831 | ERROR | http-nio-8080-exec-3 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:46:21.970 | INFO  | Thread-10 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:46:22.019 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-03-21 22:46:22.022 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-03-21 22:46:22.166 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:46:22.167 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:46:22.261 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:46:22.261 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:46:22.265 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:46:22.313 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:46:22.314 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:22.314 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:46:22.314 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:46:22.321 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:46:22.321 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 152 ms
+2024-03-21 22:46:22.351 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-03-21 22:46:22.361 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-03-21 22:46:22.429 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b95e18e, org.springframework.security.web.context.SecurityContextPersistenceFilter@68b60a50, org.springframework.security.web.header.HeaderWriterFilter@6a4e2ca8, org.springframework.web.filter.CorsFilter@6677db55, org.springframework.security.web.authentication.logout.LogoutFilter@7143c1a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61a5d993, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a159263, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ded4a19, org.springframework.security.web.session.SessionManagementFilter@250ed6eb, org.springframework.security.web.access.ExceptionTranslationFilter@7b7e5c81, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b2fe78]
+2024-03-21 22:46:22.434 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:46:22.438 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:22.439 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:46:22.442 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.311 seconds (JVM running for 236.322)
+2024-03-21 22:46:22.442 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:46:22.443 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:46:22.443 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:46:23.864 | INFO  | Thread-17 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:46:23.915 | INFO  | Thread-17 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown initiated...
+2024-03-21 22:46:23.919 | INFO  | Thread-17 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown completed.
+2024-03-21 22:46:24.052 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:46:24.053 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:46:24.127 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:46:24.127 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:46:24.130 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:46:24.165 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:46:24.165 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:24.166 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:46:24.166 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:46:24.171 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:46:24.172 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 118 ms
+2024-03-21 22:46:24.201 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Starting...
+2024-03-21 22:46:24.209 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Start completed.
+2024-03-21 22:46:24.264 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d9f8bd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f70f46c, org.springframework.security.web.header.HeaderWriterFilter@2e64702f, org.springframework.web.filter.CorsFilter@183d8fc8, org.springframework.security.web.authentication.logout.LogoutFilter@76b7f14a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f73e4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e9fd314, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b2297be, org.springframework.security.web.session.SessionManagementFilter@b1562c0, org.springframework.security.web.access.ExceptionTranslationFilter@314db2d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75b42c9e]
+2024-03-21 22:46:24.268 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:46:24.271 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:24.273 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:46:24.275 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.248 seconds (JVM running for 238.156)
+2024-03-21 22:46:24.275 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:46:24.276 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:46:24.276 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:46:30.793 | INFO  | Thread-22 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:46:30.847 | INFO  | Thread-22 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown initiated...
+2024-03-21 22:46:30.852 | INFO  | Thread-22 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown completed.
+2024-03-21 22:46:30.984 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:46:30.984 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:46:31.071 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:46:31.071 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:46:31.074 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:46:31.107 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:46:31.107 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:31.107 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:46:31.107 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:46:31.113 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:46:31.113 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 127 ms
+2024-03-21 22:46:31.139 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Starting...
+2024-03-21 22:46:31.148 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Start completed.
+2024-03-21 22:46:31.206 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74f93c1c, org.springframework.security.web.context.SecurityContextPersistenceFilter@68964ca3, org.springframework.security.web.header.HeaderWriterFilter@1208cc77, org.springframework.web.filter.CorsFilter@20f76d27, org.springframework.security.web.authentication.logout.LogoutFilter@738b5736, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b635f0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f5c4f65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52a4ca93, org.springframework.security.web.session.SessionManagementFilter@b41b73c, org.springframework.security.web.access.ExceptionTranslationFilter@14e0f0d3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5754c4cf]
+2024-03-21 22:46:31.210 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:46:31.214 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:31.216 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:46:31.218 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.263 seconds (JVM running for 245.098)
+2024-03-21 22:46:31.218 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:46:31.219 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:46:31.219 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:46:32.640 | INFO  | Thread-27 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:46:32.685 | INFO  | Thread-27 | c.z.h.HikariDataSource >>>>> HikariPool-4 - Shutdown initiated...
+2024-03-21 22:46:32.689 | INFO  | Thread-27 | c.z.h.HikariDataSource >>>>> HikariPool-4 - Shutdown completed.
+2024-03-21 22:46:32.777 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:46:32.777 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:46:32.839 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:46:32.839 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:46:32.841 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:46:32.871 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:46:32.871 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:32.871 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:46:32.871 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:46:32.877 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:46:32.877 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 99 ms
+2024-03-21 22:46:32.902 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-5 - Starting...
+2024-03-21 22:46:32.910 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-5 - Start completed.
+2024-03-21 22:46:32.963 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e219cb5, org.springframework.security.web.context.SecurityContextPersistenceFilter@32e043b6, org.springframework.security.web.header.HeaderWriterFilter@5a81c4be, org.springframework.web.filter.CorsFilter@6effcbf5, org.springframework.security.web.authentication.logout.LogoutFilter@48fa3baa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3becf8c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f9c6f36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5573e76d, org.springframework.security.web.session.SessionManagementFilter@629eb458, org.springframework.security.web.access.ExceptionTranslationFilter@12093, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@595ca75]
+2024-03-21 22:46:32.966 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:46:32.970 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:46:32.971 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:46:32.973 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.218 seconds (JVM running for 246.853)
+2024-03-21 22:46:32.973 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:46:32.974 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:46:32.974 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:51:37.695 | INFO  | Thread-32 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:51:37.750 | INFO  | Thread-32 | c.z.h.HikariDataSource >>>>> HikariPool-5 - Shutdown initiated...
+2024-03-21 22:51:37.754 | INFO  | Thread-32 | c.z.h.HikariDataSource >>>>> HikariPool-5 - Shutdown completed.
+2024-03-21 22:51:37.868 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:51:37.869 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:51:38.002 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:51:38.002 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:51:38.005 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:51:38.059 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:51:38.059 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:51:38.060 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:51:38.060 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:51:38.068 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:51:38.068 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 198 ms
+2024-03-21 22:51:38.077 | WARN  | restartedMain | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext >>>>> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'user': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2024-03-21 22:51:38.078 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Stopping service [Tomcat]
+2024-03-21 22:51:38.083 | INFO  | restartedMain | o.s.b.a.l.ConditionEvaluationReportLoggingListener >>>>> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-21 22:51:38.099 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:51:39.557 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:51:39.558 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:51:39.627 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:51:39.627 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:51:39.629 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:51:39.661 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:51:39.661 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:51:39.661 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:51:39.661 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:51:39.667 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:51:39.667 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 108 ms
+2024-03-21 22:51:39.694 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-6 - Starting...
+2024-03-21 22:51:39.704 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-6 - Start completed.
+2024-03-21 22:51:39.762 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f49d566, org.springframework.security.web.context.SecurityContextPersistenceFilter@726e6f92, org.springframework.security.web.header.HeaderWriterFilter@10559a4f, org.springframework.web.filter.CorsFilter@5d721477, org.springframework.security.web.authentication.logout.LogoutFilter@46b28cca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72a61d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b910499, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10309ced, org.springframework.security.web.session.SessionManagementFilter@3a78c69e, org.springframework.security.web.access.ExceptionTranslationFilter@137cd9af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fbb6496]
+2024-03-21 22:51:39.766 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:51:39.770 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:51:39.772 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:51:39.774 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.238 seconds (JVM running for 553.654)
+2024-03-21 22:51:39.774 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:51:39.775 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:51:39.775 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:52:24.868 | INFO  | Thread-37 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:52:24.914 | INFO  | Thread-37 | c.z.h.HikariDataSource >>>>> HikariPool-6 - Shutdown initiated...
+2024-03-21 22:52:24.919 | INFO  | Thread-37 | c.z.h.HikariDataSource >>>>> HikariPool-6 - Shutdown completed.
+2024-03-21 22:52:25.040 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:52:25.041 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:52:25.115 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:52:25.115 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:52:25.119 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:52:25.169 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:52:25.170 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:52:25.170 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:52:25.170 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:52:25.177 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:52:25.177 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 135 ms
+2024-03-21 22:52:25.207 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-7 - Starting...
+2024-03-21 22:52:25.218 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-7 - Start completed.
+2024-03-21 22:52:25.273 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1df2a0f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2aeed8e5, org.springframework.security.web.header.HeaderWriterFilter@1b8a38e6, org.springframework.web.filter.CorsFilter@5f8b76c7, org.springframework.security.web.authentication.logout.LogoutFilter@221e213b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bd8b7bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31dffd2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@433ec9ae, org.springframework.security.web.session.SessionManagementFilter@7087ff91, org.springframework.security.web.access.ExceptionTranslationFilter@a8b6d9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b3e091d]
+2024-03-21 22:52:25.277 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:52:25.281 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:52:25.282 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:52:25.285 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.27 seconds (JVM running for 599.165)
+2024-03-21 22:52:25.285 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:52:25.285 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:52:25.285 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:52:26.715 | INFO  | Thread-45 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:52:26.761 | INFO  | Thread-45 | c.z.h.HikariDataSource >>>>> HikariPool-7 - Shutdown initiated...
+2024-03-21 22:52:26.764 | INFO  | Thread-45 | c.z.h.HikariDataSource >>>>> HikariPool-7 - Shutdown completed.
+2024-03-21 22:52:26.862 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4740 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:52:26.862 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:52:26.926 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:52:26.926 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:52:26.929 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:52:26.958 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:52:26.958 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:52:26.958 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:52:26.958 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:52:26.964 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:52:26.964 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 101 ms
+2024-03-21 22:52:26.989 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-8 - Starting...
+2024-03-21 22:52:26.998 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-8 - Start completed.
+2024-03-21 22:52:27.050 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ff3f270, org.springframework.security.web.context.SecurityContextPersistenceFilter@24994bbb, org.springframework.security.web.header.HeaderWriterFilter@5a06d0b1, org.springframework.web.filter.CorsFilter@1ba1e531, org.springframework.security.web.authentication.logout.LogoutFilter@77bd3630, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a0fb235, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46606c9d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6df6990a, org.springframework.security.web.session.SessionManagementFilter@f1a0645, org.springframework.security.web.access.ExceptionTranslationFilter@33b7b5e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10abef2c]
+2024-03-21 22:52:27.053 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:52:27.056 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:52:27.058 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:52:27.060 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.218 seconds (JVM running for 600.94)
+2024-03-21 22:52:27.060 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:52:27.061 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-03-21 22:52:27.061 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:54:42.491 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:54:42.491 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:54:42.492 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 0 ms
+2024-03-21 22:54:42.501 | ERROR | http-nio-8080-exec-2 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:47.069 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:54:48.706 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 9364 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:54:48.710 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:54:48.730 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-21 22:54:48.730 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-21 22:54:48.738 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-03-21 22:54:49.022 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:54:49.024 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:54:49.035 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:54:49.272 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:54:49.277 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:54:49.277 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:54:49.277 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:54:49.309 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:54:49.309 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 578 ms
+2024-03-21 22:54:49.576 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-03-21 22:54:49.712 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-03-21 22:54:50.012 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c2ad1c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a8bd101, org.springframework.security.web.header.HeaderWriterFilter@53c2d138, org.springframework.web.filter.CorsFilter@2197e231, org.springframework.security.web.authentication.logout.LogoutFilter@4e6b4ca1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb79d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@442255e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@536d2df5, org.springframework.security.web.session.SessionManagementFilter@63e2c0d9, org.springframework.security.web.access.ExceptionTranslationFilter@66a9531f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@dfa7fa2]
+2024-03-21 22:54:50.030 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:54:50.039 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:54:50.048 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:54:50.054 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 1.552 seconds (JVM running for 2.163)
+2024-03-21 22:54:50.055 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:54:50.056 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:54:51.080 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:54:51.081 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:54:51.081 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 0 ms
+2024-03-21 22:54:51.143 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:53.704 | ERROR | http-nio-8080-exec-2 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:59.730 | ERROR | http-nio-8080-exec-3 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:55:46.640 | ERROR | http-nio-8080-exec-4 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:56:03.331 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-03-21 22:56:06.216 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 21248 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module\back-end)
+2024-03-21 22:56:06.220 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-03-21 22:56:06.240 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-21 22:56:06.240 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-21 22:56:06.248 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-03-21 22:56:06.516 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-21 22:56:06.518 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-21 22:56:06.529 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-03-21 22:56:06.766 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-03-21 22:56:06.770 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:56:06.771 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-03-21 22:56:06.771 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-03-21 22:56:06.806 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-03-21 22:56:06.806 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 565 ms
+2024-03-21 22:56:07.051 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-03-21 22:56:07.179 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-03-21 22:56:07.470 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b2bd018, org.springframework.security.web.context.SecurityContextPersistenceFilter@622e8dd5, org.springframework.security.web.header.HeaderWriterFilter@4c74f1d9, org.springframework.web.filter.CorsFilter@5ddd0a29, org.springframework.security.web.authentication.logout.LogoutFilter@41d59ea0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f6db71, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@626a1ddc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f3dd7b8, org.springframework.security.web.session.SessionManagementFilter@48636c1d, org.springframework.security.web.access.ExceptionTranslationFilter@20441688, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ab13d83]
+2024-03-21 22:56:07.488 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-03-21 22:56:07.496 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-03-21 22:56:07.505 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-21 22:56:07.510 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 1.507 seconds (JVM running for 2.011)
+2024-03-21 22:56:07.511 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-03-21 22:56:07.512 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-03-21 22:56:12.512 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-21 22:56:12.512 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-03-21 22:56:12.513 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-03-21 22:56:12.576 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:57:38.259 | ERROR | http-nio-8080-exec-4 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:41.374 | ERROR | http-nio-8080-exec-5 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:46.365 | ERROR | http-nio-8080-exec-6 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:52.348 | ERROR | http-nio-8080-exec-7 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:58:22.058 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC

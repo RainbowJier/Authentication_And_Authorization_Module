@@ -31,23 +31,23 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
     /**
-     * 访问权限设置
+     * Access permission setting
      * @param http
      * @throws Exception
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .csrf().disable()                  //to disable CORS protection
-                //不通过Session获取SecurityContext
+                .cors()           // Enable cross-origin configuration
+                .and()
+                .csrf().disable() // Disable CSRF
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-
-                .antMatchers("/user/login","/register").permitAll() //对于登录接口 允许匿名访问
-
-                .anyRequest().authenticated();      // 除上面外的所有请求全部需要鉴权认证
+                .antMatchers("/user/login", "/register").permitAll()
+                .anyRequest().authenticated();
     }
+
 
     @Bean
     @Override

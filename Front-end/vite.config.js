@@ -1,9 +1,9 @@
-import { defineConfig,loadEnv } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
-import * as path from 'path';
+import { defineConfig, loadEnv } from "vite";
+import vue from "@vitejs/plugin-vue";
+import AutoImport from "unplugin-auto-import/vite";
+import Components from "unplugin-vue-components/vite";
+import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
+import * as path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       vue(),
       AutoImport({
-        imports: ['vue', 'vue-router'],
+        imports: ["vue", "vue-router"],
         resolvers: [ElementPlusResolver()],
       }),
       Components({
@@ -25,8 +25,8 @@ export default defineConfig(({ mode }) => {
     // 端口配置
     server: {
       // host: 'localhost', // 只能本地访问
-      host: '0.0.0.0', // 局域网别人也可访问
-      port: Number(env.VITE_APP_PORT),   //项目运行端口
+      host: "0.0.0.0", // 局域网别人也可访问
+      port: Number(env.VITE_APP_PORT), //项目运行端口
     },
     //
     resolve: {
@@ -34,8 +34,8 @@ export default defineConfig(({ mode }) => {
       alias: [
         // @代替src
         {
-          find: '@',
-          replacement: path.resolve('./src'),
+          find: "@",
+          replacement: path.resolve("./src"),
         },
       ],
     },

@@ -1,0 +1,58 @@
+2024-03-21 22:08:44.023 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: nested exception is org.apache.ibatis.builder.BuilderException: Error evaluating expression 'ew.sqlSegment != null and ew.sqlSegment != '' and ew.nonEmptyOfWhere'. Cause: org.apache.ibatis.ognl.OgnlException: sqlSegment [com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: This is impossible to happen]
+2024-03-21 22:09:22.574 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:40:14.795 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:40:30.405 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:43:15.831 | ERROR | http-nio-8080-exec-3 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:51:38.099 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-03-21 22:54:42.501 | ERROR | http-nio-8080-exec-2 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:51.143 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:53.704 | ERROR | http-nio-8080-exec-2 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:54:59.730 | ERROR | http-nio-8080-exec-3 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:55:46.640 | ERROR | http-nio-8080-exec-4 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:56:12.576 | ERROR | http-nio-8080-exec-1 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username or password is null
+2024-03-21 22:57:38.259 | ERROR | http-nio-8080-exec-4 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:41.374 | ERROR | http-nio-8080-exec-5 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:46.365 | ERROR | http-nio-8080-exec-6 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists
+2024-03-21 22:57:52.348 | ERROR | http-nio-8080-exec-7 | c.e.b.s.i.RegisterServiceImpl >>>>> An error occurred during user registration: username already exists

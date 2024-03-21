@@ -23,7 +23,8 @@
             <div class="w-1/4 flex justify-end items-center ">
                 <button class="btn mr-3  rounded-full ">Setting</button>
 
-                <button class="btn mr-3  rounded-full  bg-red-500 text-white hover:bg-red-400 ">
+                <button class="btn mr-3  rounded-full  bg-red-500 text-white hover:bg-red-400 "
+                    @click="this.$router.push('/login')">
                     Log In
                 </button>
 
@@ -50,18 +51,18 @@
         <!-- main -->
         <div class="flex-1 flex bg-green-600">
             <!-- left side -->
-            <div class="w-1/4 bg-gray-500">01</div>
+            <div class="w-1/4 bg-gray-500">side</div>
 
-            <!-- contents (fills remaining space) -->
-            <div class="flex-1 bg-gray-800">02</div>
-
-            <!-- other -->
-            <div class="w-1/4 bg-yellow-300"> 0</div>
+            <!-- router-views -->
+            <router-view></router-view>
         </div>
     </div>
 </template>
 
 <script>
+import { RouterView } from 'vue-router';
+import router from '../router';
+
 //这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
 //例如：import 《组件名称》 from '《组件路径》';
 

@@ -1,12 +1,14 @@
-// 定义自定义hook
+import { ref } from "vue";
+
+// Define the useEnvVariables function
 export default function useEnvVariables() {
-  // 创建ref来存储环境变量的值
+  // Create ref to store the values of environment variables
   const port = ref(import.meta.env.VITE_APP_PORT);
   const baseApi = ref(import.meta.env.VITE_APP_BASE_API);
   const baseFileApi = ref(import.meta.env.VITE_APP_BASE_FILE_API);
   const serviceApi = ref(import.meta.env.VITE_APP_SERVICE_API);
 
-  // 返回环境变量的值
+  // Return the values of environment variables
   return {
     port,
     baseApi,
