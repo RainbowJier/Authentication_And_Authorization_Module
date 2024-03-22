@@ -6,14 +6,13 @@
 -->
 <!--  -->
 <template>
+
     <div class="bg-base-300 flex justify-center items-center h-screen">
         <div class="flex w-1/2 h-3/5  shadow-lg">
             <!-- 图片 -->
             <div class="bg-info w-1/2 h-full rounded-l-lg">
                 <img src="@\assets\Login\loginPic.jpg" class="w-full h-full object-cover rounded-l-lg">
             </div>
-
-
             <!-- 输入框 -->
             <div class="bg-base-100 w-1/2 h-full flex flex-col rounded-r-lg">
 
@@ -68,6 +67,7 @@
                     <button class="w-3/5 btn btn-active bg-base-300" @click="register">Sign up</button>
                 </div>
 
+
             </div>
         </div>
     </div>
@@ -78,23 +78,32 @@
 <script setup>
 // 导入需要的 API
 import api from "@/api/service.js";
-
+import { useRouter } from 'vue-router'
+// Data
+const router = useRouter()
 const user = reactive({
     userName: '',
     password: ''
 })
-
-console.log(user)
 
 
 // Methods
 const register = () => {
     api.post('/register', user)
         .then(response => {
-            console.log(response);
+            ElNotification({
+                title: 'Success',
+                message: 'Sign up Successfully',
+                type: 'success',
+            })
+            router.push("/login")
         })
         .catch(error => {
-            console.error('请求失败', error);
+            ElNotification({
+                title: 'Error',
+                message: 'The system encountered an error. Please reach out to the manager for assistance.',
+                type: 'error',
+            })
         });
 }
 

@@ -30,6 +30,8 @@ public class LoginController {
     @PostMapping("login")
 
     public ResponseResult login(@RequestBody User user) {
+
+        System.out.println(user);
         return loginService.login(user);
     }
 

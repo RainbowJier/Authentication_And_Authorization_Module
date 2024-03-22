@@ -15,37 +15,38 @@ const http = axios.create({
 });
 
 // Request interceptor
-http.interceptors.request.use(
-  (config) => {
-    // Add Authorization header to requests except for registration
-    if (!config.url.includes("/register")) {
-      config.headers.common["Authorization"] = getToken(); // Assuming there's a getToken function
-    }
-    return config;
-  },
-  (error) => {
-    return Promise.reject(error);
-  }
-);
+// http.interceptors.request.use(
+//   (config) => {
+//     // Add Authorization header to requests except for registration
+//     if (!config.url.includes("/register", "/login")) {
+//       config.headers.common["Authorization"] = getToken(); // Assuming there's a getToken function
+//     }
+//     return config;
+//   },
+//   (error) => {
+//     return Promise.reject(error);
+//   }
+// );
 
 // Response interceptor
-http.interceptors.response.use(
-  (response) => {
-    // Handle successful responses
-    if (response.data.success) {
-      return response.data.data;
-    } else {
-      // Handle error responses, display error message
-      ElMessage.error(response.data.message || "请求失败");
-      return Promise.reject(new Error(response.data.message));
-    }
-  },
-  (error) => {
-    // Handle HTTP request errors
-    ElMessage.error("网络异常，请稍后再试！");
-    return Promise.reject(error);
-  }
-);
+// http.interceptors.response.use(
+//   (response) => {
+//     console.log(response.data);
+//     // Handle successful responses
+//     if (response.data.code) {
+//       return response.data.data;
+//     } else {
+//       // Handle error responses, display error message
+//       ElMessage.error(response.data.message || "请求失败");
+//       return Promise.reject(new Error(response.data.message));
+//     }
+//   },
+//   (error) => {
+//     // Handle HTTP request errors
+//     ElMessage.error("网络异常，请稍后再试！");
+//     return Promise.reject(error);
+//   }
+// );
 
 // API object containing HTTP request methods
 const api = {

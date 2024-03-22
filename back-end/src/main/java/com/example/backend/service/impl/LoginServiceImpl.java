@@ -1,14 +1,18 @@
 package com.example.backend.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.example.backend.entity.LoginUser;
 import com.example.backend.entity.ResponseResult;
 import com.example.backend.entity.User;
 import com.example.backend.service.LoginService;
 import com.example.backend.uitil.JwtUtil;
 import com.example.backend.uitil.RedisCache;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -30,7 +34,7 @@ public class LoginServiceImpl implements LoginService {
     private AuthenticationManager authenticationManager;
     @Resource
     private RedisCache redisCache;
-
+    private static final Logger logger = LogManager.getLogger(LoginServiceImpl.class);
 
     /**
      * 用户登录功能。
@@ -40,34 +44,39 @@ public class LoginServiceImpl implements LoginService {
      */
     @Override
     public ResponseResult login(User user) {
-        // 创建认证令牌
+        // Create an authentication token with the user's credentials.
         UsernamePasswordAuthenticationToken authenticationToken = new
                 UsernamePasswordAuthenticationToken(user.getUserName(), user.getPassword());
 
-        // 进行用户认证
-        Authentication authenticate =
-                authenticationManager.authenticate(authenticationToken);
+        try {
+            // User authentication.
+            Authentication authenticate =
+                    authenticationManager.authenticate(authenticationToken);
 
-        // 认证失败处理
-        if (Objects.isNull(authenticate)) {
-            throw new RuntimeException("用户名或密码错误");
+            // Authentication failure handling.
+            if (Objects.isNull(authenticate)) {
+                throw new RuntimeException("username or password is incorrect.");
+            }
+
+            // Generate a JWT using the user's ID.
+            LoginUser loginUser = (LoginUser) authenticate.getPrincipal();
+            String userId = loginUser.getUser().getId().toString();
+            String jwt = JwtUtil.createJWT(userId);
+
+            // Store the authentication information in Redis.
+            redisCache.setCacheObject("login:" + userId, loginUser);
+
+            // Return the JWT to the client.
+            HashMap<String, String> map = new HashMap<>();
+            map.put("token", jwt);
+
+            // Return a response result containing the JWT and other information.
+            return new ResponseResult(200, "登陆成功", map);
+
+        } catch (Exception e) {
+            logger.error("An error occurred during user registration: {}", e.getMessage());
+            return new ResponseResult(500, "An internal server error occurred while processing your request.");
         }
-
-        // 获取登录用户信息，并生成JWT
-        LoginUser loginUser = (LoginUser) authenticate.getPrincipal();  //使用userid生成token
-        String userId = loginUser.getUser().getId().toString();
-        String jwt = JwtUtil.createJWT(userId);
-
-        // 将用户认证信息存入Redis缓存
-        redisCache.setCacheObject("login:" + userId, loginUser);  //authenticate存入redis
-
-        // 准备响应数据，包含token
-        HashMap<String, String> map = new HashMap<>();      //把token响应给前端
-        map.put("token", jwt);
-
-        // 返回登录成功响应
-        return new ResponseResult(200, "登陆成功", map);
     }
-
 }
 

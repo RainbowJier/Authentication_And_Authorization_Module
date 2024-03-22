@@ -1,5 +1,7 @@
 package com.example.backend.configuration;
 
+import com.example.backend.Filter.JwtAuthenticationTokenFilter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -8,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * @projectName: Authentication_And_Authorization_Module
@@ -20,7 +23,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-
+    @Autowired
+    JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter;
     /**
      * 密码加密的方式
      */
@@ -44,8 +48,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/user/login", "/register").permitAll()
+                .antMatchers("/login", "/register").permitAll()
                 .anyRequest().authenticated();
+
+        // Add JWT token filter before UsernamePasswordAuthenticationFilter
+        http.addFilterBefore(jwtAuthenticationTokenFilter,
+                UsernamePasswordAuthenticationFilter .class);
     }
 
 

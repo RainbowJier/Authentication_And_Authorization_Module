@@ -15,6 +15,7 @@ app.use(pinia);
 
 //ElmentUI
 import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
 app.use(ElementPlus, { size: "small", zIndex: 3000 });
 
 app.mount("#app");

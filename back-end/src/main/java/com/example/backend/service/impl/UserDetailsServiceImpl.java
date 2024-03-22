@@ -27,7 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private UserMapper userMapper;
 
     /**
-     * Verify username and password.
+     * Verify username and password with datbase.
      *
      * @return UserDetails
      */

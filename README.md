@@ -1,13 +1,14 @@
 # Authentication And Authorization Module
 
 ## 😋Todo List
-☑️  
 
-| Front-end      | Back-end   |
-|----------------|------------|
-| ✅Login Page    | 🔳 Login Api |
-| ✅Register Page |✅Register Api |
-|                |            |
+🔳
+
+| Front-end      | Back-end      |
+|----------------|---------------|
+| ✅Login Page    | ✅Login Api    |
+| ✅Register Page | ✅Register Api |
+|                | 🔳Logout Api  |
 
 ***
 
@@ -23,7 +24,6 @@
 | **Tailwind CSS** | Tailwind CSS 是一个实用的 CSS 框架，提供一组预定义的样式类，通过组合这些类来构建界面，避免手动编写 CSS。                 |
 | **DaisyUI**      | DaisyUI 是一个基于 Tailwind CSS 的 UI 框架，提供了一套美观的组件库，可用于快速构建现代化的 Web 应用界面。            |
 
-
 ### 1.2后端
 
 | **技术**              | **描述**                                                         |
@@ -35,21 +35,19 @@
 | **Redis**           | Redis 是一个基于内存的高性能键值存储数据库，常用于缓存、会话管理、消息队列等场景。                   |
 | **MySQL**           | MySQL 是一个流行的开源关系型数据库管理系统，广泛应用于Web开发和其他各种类型的应用程序中。              |
 
-
-
 ***
 
 ## 2. 😊Introduction
 
-### 2.1 Register Page
+### 2.1 Register Api
 
 <img alt="alt text" src=".images/image-2.png" width="800"/>
 
-### 2.2 Login Page
+### 2.2 Login Api
 
 <img alt="alt text" src=".images/image-1.png" width="800"/>
 
-
+### 2.3 Logout Api
 
 
 
