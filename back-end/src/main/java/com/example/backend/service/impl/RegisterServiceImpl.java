@@ -1,20 +1,19 @@
 package com.example.backend.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.example.backend.entity.ResponseResult;
-import com.example.backend.entity.User;
+import com.example.backend.domain.ResponseResult;
+import com.example.backend.domain.user.User;
 import com.example.backend.mapper.UserMapper;
 import com.example.backend.service.RegisterService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Objects;
-import java.util.Optional;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @projectName: Authentication_And_Authorization_Module
@@ -31,6 +30,7 @@ public class RegisterServiceImpl implements RegisterService {
     private static final Logger logger = LogManager.getLogger(RegisterServiceImpl.class);
     @Autowired
     private UserMapper userMapper;
+
     @Transactional(rollbackFor = Exception.class) // 添加事务管理，遇到Exception时自动回滚
     @Override
     public ResponseResult register(User user) {
@@ -53,6 +53,18 @@ public class RegisterServiceImpl implements RegisterService {
                 String encryptedPassword = bCryptPasswordEncoder.encode(user.getPassword());
                 user.setPassword(encryptedPassword);
 
+
+                user.setUserType("1");
+                // Get current time.
+                Date currentDate = new Date();
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                String formattedDate = formatter.format(currentDate);
+                Date parsedDate = formatter.parse(formattedDate);
+
+                user.setCreateTime(parsedDate);
+                user.setUpdateTime(parsedDate);
+                user.setDelFlag(0);
+                
                 // Insert user into database.
                 int insert = userMapper.insert(user);
 
@@ -60,7 +72,7 @@ public class RegisterServiceImpl implements RegisterService {
                     throw new RuntimeException("Failed to insert user into database");
                 }
 
-                return new ResponseResult(200, "Registration successful");
+                return new ResponseResult(200, "Registration successfully");
             }
         } catch (Exception e) {
             logger.error("An error occurred during user registration: {}", e.getMessage());

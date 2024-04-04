@@ -1,10 +1,8 @@
 package com.example.backend.controller;
 
-import com.example.backend.entity.ResponseResult;
-import com.example.backend.entity.User;
+import com.example.backend.domain.ResponseResult;
+import com.example.backend.domain.user.User;
 import com.example.backend.service.LoginService;
-import com.example.backend.service.RegisterService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,8 +28,6 @@ public class LoginController {
     @PostMapping("login")
 
     public ResponseResult login(@RequestBody User user) {
-
-        System.out.println(user);
         return loginService.login(user);
     }
 

@@ -1,8 +1,8 @@
 package com.example.backend.controller;
 
 
-import com.example.backend.entity.ResponseResult;
-import com.example.backend.entity.User;
+import com.example.backend.domain.ResponseResult;
+import com.example.backend.domain.user.User;
 import com.example.backend.service.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,12 +17,12 @@ public class RegisterController {
 
     /**
      * Sign up
+     *
      * @param user
      * @return
      */
     @PostMapping("register")
     public ResponseResult register(@RequestBody User user) {
-        System.out.println(user);
         return registerService.register(user);
     }
 

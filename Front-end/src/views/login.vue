@@ -7,10 +7,6 @@
 <template>
     <div class="bg-base-300 flex justify-center items-center h-screen">
         <div class="flex w-1/2 h-3/5  shadow-lg">
-            <!--  -->
-            <div class="bg-base-100">
-
-            </div>
             <!-- 图片 -->
             <div class="bg-info w-1/2 h-full rounded-l-lg">
                 <img src="@\assets\Login\loginPic.jpg" class="w-full h-full object-cover rounded-l-lg">
@@ -77,12 +73,17 @@ const user = reactive({
 const login = () => {
     api.post('/login', user)
         .then(response => {
+            console.log(response.data)
             if (response.data.code == 200) {
                 ElNotification({
                     title: 'Success',
                     message: 'Sign in Successfully',
                     type: 'success',
                 })
+                // Store the token.
+                localStorage.setItem('token', response.data.data.token)
+                const storedToken = localStorage.getItem("token")
+                // Push to index page.
                 router.push("/index")
             } else {
                 ElNotification({

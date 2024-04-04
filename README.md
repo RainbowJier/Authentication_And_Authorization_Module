@@ -9,11 +9,8 @@
 
 ## 🙏Todo List
 
-- **Front-end**
-    - [ ] xxx
-
-- **Back-end**
-    - [ ] Logout Api
+- [ ] Logout
+- [ ] 
 
 ***
 

@@ -1,4 +1,4 @@
-package com.example.backend.entity;
+package com.example.backend.domain.user;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;

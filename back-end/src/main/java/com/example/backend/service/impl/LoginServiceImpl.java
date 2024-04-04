@@ -1,9 +1,8 @@
 package com.example.backend.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.example.backend.entity.LoginUser;
-import com.example.backend.entity.ResponseResult;
-import com.example.backend.entity.User;
+import com.example.backend.domain.ResponseResult;
+import com.example.backend.domain.user.LoginUser;
+import com.example.backend.domain.user.User;
 import com.example.backend.service.LoginService;
 import com.example.backend.uitil.JwtUtil;
 import com.example.backend.uitil.RedisCache;
@@ -12,7 +11,6 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -37,7 +35,7 @@ public class LoginServiceImpl implements LoginService {
     private static final Logger logger = LogManager.getLogger(LoginServiceImpl.class);
 
     /**
-     * 用户登录功能。
+     * Login
      *
      * @param user 包含用户名和密码的用户对象。
      * @return 返回一个包含token的响应结果，如果登录成功；否则返回错误信息。

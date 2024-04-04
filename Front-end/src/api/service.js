@@ -8,7 +8,7 @@ const { serviceApi } = useEnvVariables();
 // Create Axios instance with base URL and timeout
 const http = axios.create({
   baseURL: serviceApi.value,
-  timeout: 10,
+  timeout: 1000,
   headers: {
     "Content-Type": "application/json", // Set default content type
   },
