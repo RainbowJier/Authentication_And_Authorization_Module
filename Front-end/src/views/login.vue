@@ -30,7 +30,7 @@
                         <input type="text" class="grow" placeholder="用户名" v-model="user.userName" />
                     </label>
                 </div>
-                <!-- 密码 -->
+                <!-- password -->
                 <div class="w-full h-32 flex justify-center items-center">
                     <label class="w-3/5 input input-bordered flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
@@ -42,7 +42,7 @@
                         <input type="password" class="grow " placeholder="password" v-model="user.password" />
                     </label>
                 </div>
-                <!-- 登录 -->
+                <!-- Login -->
                 <div class=" w-full h-20 flex justify-center items-center">
                     <button class="w-3/5 btn btn-active btn-neutral" @click="login">Log In</button>
                 </div>
@@ -51,7 +51,7 @@
                     <button class="w-3/5 btn btn-active bg-base-300">Forget usernanme or password</button>
                 </div>
                 <div class="divider">OR</div>
-                <!-- 注册 -->
+                <!-- Register -->
                 <router-link to='/register' class=" w-full h-20 flex justify-center items-center">
                     <button class="w-3/5 btn btn-active bg-base-300">Sign up</button>
                 </router-link>
@@ -77,14 +77,13 @@ const user = reactive({
 const login = () => {
     api.post('/login', user)
         .then(response => {
-
             if (response.data.code == 200) {
                 ElNotification({
                     title: 'Success',
-                    message: 'Sign up Successfully',
+                    message: 'Sign in Successfully',
                     type: 'success',
                 })
-                router.push("/")
+                router.push("/index")
             } else {
                 ElNotification({
                     title: 'Error',

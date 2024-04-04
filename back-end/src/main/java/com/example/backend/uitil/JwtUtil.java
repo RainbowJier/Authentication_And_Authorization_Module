@@ -30,7 +30,7 @@ public class JwtUtil {
     public static final String JWT_KEY = "Rainbow";
 
     public static String getUUID() {
-        final String token = UUID.randomUUID().toString().replaceAll("-", "");
+        String token = UUID.randomUUID().toString().replaceAll("-", "");
         return token;
     }
 
@@ -40,7 +40,7 @@ public class JwtUtil {
      * @param subject token中要存放的数据（json格式）
      * @return
      */
-    public static String createJWT(final String subject) {
+    public static String createJWT(String subject) {
         final JwtBuilder builder = getJwtBuilder(subject, null, getUUID());// 设置过期时间
         return builder.compact();
     }
@@ -57,17 +57,17 @@ public class JwtUtil {
         return builder.compact();
     }
 
-    private static JwtBuilder getJwtBuilder(final String subject, Long ttlMillis,
-                                            final String uuid) {
-        final SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;
-        final SecretKey secretKey = generalKey();
-        final long nowMillis = System.currentTimeMillis();
-        final Date now = new Date(nowMillis);
+    private static JwtBuilder getJwtBuilder(String subject, Long ttlMillis,
+                                            String uuid) {
+        SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;
+        SecretKey secretKey = generalKey();
+        long nowMillis = System.currentTimeMillis();
+        Date now = new Date(nowMillis);
         if (ttlMillis == null) {
             ttlMillis = JwtUtil.JWT_TTL;
         }
-        final long expMillis = nowMillis + ttlMillis;
-        final Date expDate = new Date(expMillis);
+        long expMillis = nowMillis + ttlMillis;
+        Date expDate = new Date(expMillis);
         return Jwts.builder()
                 .setId(uuid) //唯一的ID
                 .setSubject(subject) // 主题 可以是JSON数据

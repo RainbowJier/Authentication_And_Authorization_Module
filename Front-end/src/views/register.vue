@@ -91,12 +91,21 @@ const user = reactive({
 const register = () => {
     api.post('/register', user)
         .then(response => {
-            ElNotification({
-                title: 'Success',
-                message: 'Sign up Successfully',
-                type: 'success',
-            })
-            router.push("/login")
+            if (response.data.code == 200) {
+                ElNotification({
+                    title: 'Success',
+                    message: 'Sign up Successfully',
+                    type: 'success',
+                })
+                // jump to login page.
+                router.push("/login")
+            } else {
+                ElNotification({
+                    title: 'Error',
+                    message: 'Username or Password is incorrect.',
+                    type: 'error',
+                })
+            }
         })
         .catch(error => {
             ElNotification({

@@ -1,14 +1,19 @@
 # Authentication And Authorization Module
 
-## 😋Todo List
+## 🖐New Features
 
-🔳
+🔳✅
 
-| Front-end      | Back-end      |
-|----------------|---------------|
-| ✅Login Page    | ✅Login Api    |
-| ✅Register Page | ✅Register Api |
-|                | 🔳Logout Api  |
+- ✅Login
+- ✅Register
+
+## 🙏Todo List
+
+- **Front-end**
+    - [ ] xxx
+
+- **Back-end**
+    - [ ] Logout Api
 
 ***
 
@@ -37,20 +42,7 @@
 
 ***
 
-## 2. 😊Introduction
-
-### 2.1 Register Api
-
-<img alt="alt text" src=".images/image-2.png" width="800"/>
-
-### 2.2 Login Api
-
-<img alt="alt text" src=".images/image-1.png" width="800"/>
-
-### 2.3 Logout Api
-
-
-
+[More Docs]()
 
 
 

@@ -23,11 +23,11 @@ public class RedisConfiguration {
     @SuppressWarnings(value = {"unchecked", "rawtypes"})
     public RedisTemplate<Object, Object> redisTemplate(final RedisConnectionFactory connectionFactory) {
 
-        final RedisTemplate<Object, Object> template = new RedisTemplate<>();
+        RedisTemplate<Object, Object> template = new RedisTemplate<>();
 
         template.setConnectionFactory(connectionFactory);
 
-        final FastJsonRedisSerializer serializer = new
+        FastJsonRedisSerializer serializer = new
                 FastJsonRedisSerializer(Object.class);
 
         // 使用StringRedisSerializer来序列化和反序列化redis的key值
