@@ -11,9 +11,6 @@
 
 ## 🙏Todo List
 
-- [ ] Main page of the system.
-- [ ] Swagger
-
 ***
 
 ## 1. 💻Tech Stack
