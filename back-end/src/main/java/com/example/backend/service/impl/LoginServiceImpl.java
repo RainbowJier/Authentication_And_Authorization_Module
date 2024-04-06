@@ -67,13 +67,12 @@ public class LoginServiceImpl implements LoginService {
             // Return the JWT to the client.
             HashMap<String, String> map = new HashMap<>();
             map.put("token", jwt);
-
             // Return a response result containing the JWT and other information.
-            return new ResponseResult(200, "登陆成功", map);
+            return new ResponseResult<>(200, "登陆成功", map);
 
         } catch (Exception e) {
             logger.error("An error occurred during user registration: {}", e.getMessage());
-            return new ResponseResult(500, "An internal server error occurred while processing your request.");
+            return new ResponseResult<>(500, "An internal server error occurred while processing your request.");
         }
     }
 }

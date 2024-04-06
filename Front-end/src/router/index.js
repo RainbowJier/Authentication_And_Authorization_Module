@@ -14,7 +14,7 @@ const routes = [
     component: () => import("@/views/index/layout.vue"),
     children: [
       {
-        path: "/",
+        path: "/main",
         component: () => import("@/components/main/main.vue"),
       },
     ],
@@ -24,6 +24,20 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+});
+
+// 注册全局前置守卫
+router.beforeEach((to, from, next) => {
+  // token exsists
+  if (!localStorage.getItem("token")) {
+    if (to.path == "/" || to.path == "/register") {
+      next();
+    } else {
+      next("/");
+    }
+  } else {
+    next();
+  }
 });
 
 export default router;

@@ -1,10 +1,11 @@
-package com.example.backend.controller;
+package com.example.backend.controller.Authentication;
 
 import com.example.backend.domain.ResponseResult;
 import com.example.backend.domain.user.User;
 import com.example.backend.service.LoginService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -20,7 +21,8 @@ import javax.annotation.Resource;
  */
 
 
-@RestController("user")
+@RestController
+@RequestMapping("user")
 public class LoginController {
     @Resource
     private LoginService loginService;
@@ -30,6 +32,4 @@ public class LoginController {
     public ResponseResult login(@RequestBody User user) {
         return loginService.login(user);
     }
-
-
 }

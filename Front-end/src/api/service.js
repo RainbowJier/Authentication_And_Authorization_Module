@@ -15,18 +15,23 @@ const http = axios.create({
 });
 
 // Request interceptor
-// http.interceptors.request.use(
-//   (config) => {
-//     // Add Authorization header to requests except for registration
-//     if (!config.url.includes("/register", "/login")) {
-//       config.headers.common["Authorization"] = getToken(); // Assuming there's a getToken function
-//     }
-//     return config;
-//   },
-//   (error) => {
-//     return Promise.reject(error);
-//   }
-// );
+http.interceptors.request.use(
+  (config) => {
+    // Add Authorization header to requests except for registering and logging in.
+    if (
+      !(
+        config.url.includes("/user/register") ||
+        config.url.includes("/user/login")
+      )
+    ) {
+      config.headers.token = localStorage.getItem("token"); // Add token to header using the Bearer scheme
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
 
 // Response interceptor
 // http.interceptors.response.use(

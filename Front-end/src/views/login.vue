@@ -71,9 +71,9 @@ const user = reactive({
 
 // Methods
 const login = () => {
-    api.post('/login', user)
+    api.post('/user/login', user)
         .then(response => {
-            console.log(response.data)
+            // console.log(response.data)
             if (response.data.code == 200) {
                 ElNotification({
                     title: 'Success',

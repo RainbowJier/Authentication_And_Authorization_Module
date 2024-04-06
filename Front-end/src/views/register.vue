@@ -89,7 +89,7 @@ const user = reactive({
 
 // Methods
 const register = () => {
-    api.post('/register', user)
+    api.post('/user/register', user)
         .then(response => {
             if (response.data.code == 200) {
                 ElNotification({

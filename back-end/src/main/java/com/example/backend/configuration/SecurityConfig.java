@@ -25,6 +25,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter;
+
     /**
      * 密码加密的方式
      */
@@ -36,6 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * Access permission setting
+     *
      * @param http
      * @throws Exception
      */
@@ -48,12 +50,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/login", "/register").permitAll()
+                .antMatchers("/user/login", "/user/register").permitAll()
                 .anyRequest().authenticated();
 
         // Add JWT token filter before UsernamePasswordAuthenticationFilter
         http.addFilterBefore(jwtAuthenticationTokenFilter,
-                UsernamePasswordAuthenticationFilter .class);
+                UsernamePasswordAuthenticationFilter.class);
     }
 
 

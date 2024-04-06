@@ -37,8 +37,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         // Get token.
         String token = request.getHeader("token");
-
-        // Check if token exists.
+        // Check if token not exists.
         if (!StringUtils.hasText(token)) {
             filterChain.doFilter(request, response);
             return;
@@ -56,7 +55,9 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
         // Get user information from Redis.
         String redisKey = "login:" + userId;
+
         LoginUser loginUser = redisCache.getCacheObject(redisKey);
+
         if (Objects.isNull(loginUser)) {
             throw new RuntimeException("User is not logged in.");
         }
@@ -64,6 +65,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         // Store in SecurityContextHolder.
         UsernamePasswordAuthenticationToken authenticationToken =
                 new UsernamePasswordAuthenticationToken(loginUser, null, null);
+
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
 
         // Pass interception.
