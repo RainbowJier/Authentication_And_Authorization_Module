@@ -1,6 +1,22 @@
+server:
+  port: 8080
+
 spring:
   application:
-    name:back-end
+    name: back-end
+
+  # Swagger
+  # After Springboot 2.6 version, you need to configure ANT_PATH_MATCHER to make swagger work properly(适当地).
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  # ===== define swagger configurations ===== #
+  springfox:
+    documentation:
+      swagger-ui:
+        enabled=true:
+
   # Database
   datasource:
     url: jdbc:mysql://localhost:3306/spring-security?characterEncoding=utf8&serverTimezone=UTC
@@ -13,3 +29,4 @@ spring:
 logging:
   level:
     com.example.backend: DEBUG
+

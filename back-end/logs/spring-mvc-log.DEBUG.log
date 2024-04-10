@@ -1,145 +1,203 @@
-2024-04-06 11:51:30.238 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 11:51:31.088 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 11:52:18.876 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 11:52:20.796 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 11:52:20.955 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:04:15.649 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:04:15.788 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:06:28.070 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:08:07.927 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:08:08.083 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:08:09.541 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:08:09.654 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:08:23.346 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:08:23.487 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:08:25.186 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:08:25.303 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:11:26.825 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:11:27.604 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:11:45.614 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:11:46.365 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:12:44.288 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:12:44.500 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:12:45.676 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 12:12:45.688 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 12:12:45.700 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 12:12:46.444 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:12:46.564 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:12:51.049 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 12:12:51.049 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow3(String)
-2024-04-06 12:12:51.050 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 0
-2024-04-06 12:12:51.162 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.insert >>>>> ==>  Preparing: INSERT INTO user ( id, user_name, nick_name, password, user_type, create_time, update_time, del_flag ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
-2024-04-06 12:12:51.164 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.insert >>>>> ==> Parameters: 1776463051249774593(Long), Rainbow3(String), RainbowJier(String), $2a$10$eHwmc0RfVAC9fl2NGhn4LOZdIXGld7EodCipTYItufWjoxlthb/HW(String), 1(String), 2024-04-06 12:12:51.0(Timestamp), 2024-04-06 12:12:51.0(Timestamp), 0(Integer)
-2024-04-06 12:12:51.174 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.insert >>>>> <==    Updates: 1
-2024-04-06 12:24:19.152 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:24:19.286 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:25:53.247 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 12:25:53.382 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 12:33:09.419 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:46:39.875 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:46:40.796 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:49:35.942 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 14:49:35.955 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 14:49:35.970 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 14:51:52.457 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:51:53.244 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:52:37.001 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:52:37.168 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:52:38.853 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:52:38.976 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:53:09.192 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:53:09.322 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:53:11.006 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:53:11.125 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:54:05.701 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:54:05.832 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:54:07.505 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:54:07.618 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:54:27.953 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:54:28.071 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:54:54.210 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:54:54.347 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:54:55.976 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:54:56.092 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:55:08.007 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:55:09.627 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:55:09.736 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:55:38.783 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:55:38.910 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:55:40.542 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:55:40.644 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:57:19.005 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:57:19.127 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:57:22.350 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 14:57:22.362 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 14:57:22.375 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 14:58:12.750 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:58:12.888 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:58:14.579 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:58:14.695 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:58:54.125 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:59:12.964 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:59:13.072 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 14:59:36.043 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:59:37.667 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 14:59:37.768 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:00:53.016 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:00:53.128 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:02:06.641 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:02:06.763 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:02:08.369 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:02:08.471 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:04:27.462 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:04:27.574 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:07:34.460 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:07:34.589 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:09:34.188 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:09:35.005 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:10:57.441 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:10:57.593 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:10:59.298 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:10:59.422 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:11:18.919 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:11:19.037 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:11:28.948 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:11:30.580 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:11:30.695 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:20:17.961 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:20:17.974 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:20:17.987 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:21:19.662 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:21:19.792 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:21:21.491 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:21:21.612 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:21:57.724 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:21:57.849 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:21:59.521 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:21:59.641 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:22:06.771 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:22:06.881 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:25:03.932 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:25:04.732 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:27:44.049 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:27:44.854 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:28:19.109 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:28:19.122 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:28:19.134 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:30:14.482 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:30:14.483 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:30:14.484 | DEBUG | http-nio-8080-exec-3 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:31:28.853 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:31:28.854 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:31:28.855 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:32:27.531 | DEBUG | http-nio-8080-exec-9 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:32:27.532 | DEBUG | http-nio-8080-exec-9 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:32:27.533 | DEBUG | http-nio-8080-exec-9 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:35:07.731 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:35:07.731 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:35:07.732 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-06 15:35:36.025 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:35:36.208 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:35:37.964 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-06 15:35:38.105 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-06 15:42:52.580 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-06 15:42:52.580 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-06 15:42:52.582 | DEBUG | http-nio-8080-exec-8 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-04-10 20:44:33.276 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:44:34.421 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:49:15.454 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:49:16.375 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:49:53.633 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:49:54.560 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:53:25.392 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:53:26.291 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:55:55.841 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:55:56.864 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:56:07.252 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:56:07.454 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:56:14.463 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:56:15.407 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:56:38.912 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:56:39.120 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:57:30.084 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:57:31.005 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:58:43.839 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:58:44.742 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:58:53.218 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:58:54.123 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 20:59:13.356 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 20:59:14.284 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:01:08.061 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:01:08.277 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:01:32.582 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:01:33.497 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:04:38.976 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:04:39.192 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:04:52.498 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:04:52.690 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:05:10.649 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:05:10.848 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:05:56.509 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:05:57.440 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:07:17.741 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:07:17.960 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:10:28.960 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:10:29.889 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:11:38.967 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:11:39.181 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:14:32.958 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:14:33.164 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:14:48.046 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:14:48.996 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:23:06.802 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:23:07.065 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:25:59.904 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:26:00.818 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:26:25.321 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:26:26.237 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:26:57.949 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:26:58.196 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:26:59.957 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:27:00.154 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:27:22.839 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:27:23.769 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:29:35.599 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:29:35.831 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:29:37.606 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:29:37.797 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:31:15.387 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:31:16.293 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:31:39.188 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:31:40.130 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:32:04.171 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:32:05.096 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:32:48.408 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:32:49.303 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:33:03.759 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:33:03.978 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:33:05.748 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:33:05.934 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:36:07.817 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:36:08.020 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:37:40.910 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:37:41.113 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:39:09.987 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:40:32.854 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:40:34.871 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:40:35.074 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:41:55.513 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:41:56.442 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:43:03.483 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:43:03.700 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:43:19.660 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:43:19.849 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:44:07.292 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:44:34.130 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:45:13.246 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:45:15.172 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:45:39.056 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:45:39.306 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:45:40.826 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:45:41.045 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:46:12.386 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:46:13.295 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:46:24.112 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:46:25.071 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:48:47.234 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:48:47.464 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:48:49.247 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:48:49.422 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:48:59.279 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:48:59.460 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:49:01.159 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:49:01.327 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:49:05.580 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:49:06.556 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:49:58.452 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:49:59.353 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:52:32.596 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:52:33.478 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:53:53.088 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:53:53.983 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:56:27.338 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:56:29.298 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:56:29.430 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:57:40.456 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:57:41.376 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:58:41.391 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:58:41.685 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:58:43.456 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:58:43.652 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 21:58:57.992 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:59:44.797 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 21:59:54.389 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:00:05.702 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:00:06.626 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:00:26.267 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-04-10 22:00:26.377 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-04-10 22:00:26.415 | DEBUG | http-nio-8080-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-04-10 22:02:38.443 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:02:39.383 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:03:56.098 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:04:07.369 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:04:08.283 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:06:11.589 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:06:12.511 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:10:34.441 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:10:34.708 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:10:36.511 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:10:36.711 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:11:27.970 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:11:28.891 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:11:50.484 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:11:50.717 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:11:52.480 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:11:52.669 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:13:24.009 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:13:24.204 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:15:23.438 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:15:23.649 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:18:34.802 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:18:35.006 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:19:13.201 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:19:13.425 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:19:43.981 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:19:44.889 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:20:10.326 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
+2024-04-10 22:20:10.339 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
+2024-04-10 22:20:10.351 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-04-10 22:34:42.066 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:34:42.996 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:36:06.137 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:36:07.066 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:36:42.783 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:36:43.032 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:36:44.813 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:36:45.018 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:37:13.132 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:37:13.360 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:37:15.100 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:37:15.320 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:37:19.080 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:37:19.316 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:37:21.055 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:37:21.239 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:37:59.595 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:38:00.533 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:38:23.449 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:38:24.376 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:42:26.066 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:42:27.114 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:44:10.014 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:44:10.250 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:44:12.004 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:44:12.267 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:47:34.143 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:47:35.153 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:50:39.462 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:50:39.888 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:50:41.714 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:50:41.916 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:50:54.301 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:50:55.267 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:51:12.703 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:51:13.695 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:53:19.561 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:53:20.562 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-04-10 22:54:39.730 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-10 22:54:40.677 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use

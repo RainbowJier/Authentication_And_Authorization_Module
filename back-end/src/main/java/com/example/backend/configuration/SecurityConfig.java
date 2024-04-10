@@ -50,7 +50,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/user/login", "/user/register").permitAll()
+                .antMatchers("/user/login", "/user/register",
+                        "/swagger-ui/**",
+                        "/swagger-resources/**",
+                        "/v3/**",
+                        "/profile/**"
+                ).permitAll()
                 .anyRequest().authenticated();
 
         // Add JWT token filter before UsernamePasswordAuthenticationFilter
