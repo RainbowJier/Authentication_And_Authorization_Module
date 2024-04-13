@@ -71,5 +71,4 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         // Pass interception.
         filterChain.doFilter(request, response);
     }
-
 }

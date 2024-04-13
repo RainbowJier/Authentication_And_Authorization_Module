@@ -31,7 +31,7 @@ public class RegisterServiceImpl implements RegisterService {
     @Autowired
     private UserMapper userMapper;
 
-    @Transactional(rollbackFor = Exception.class) // 添加事务管理，遇到Exception时自动回滚
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public ResponseResult register(User user) {
         try {
@@ -64,7 +64,7 @@ public class RegisterServiceImpl implements RegisterService {
                 user.setCreateTime(parsedDate);
                 user.setUpdateTime(parsedDate);
                 user.setDelFlag(0);
-                
+
                 // Insert user into database.
                 int insert = userMapper.insert(user);
 

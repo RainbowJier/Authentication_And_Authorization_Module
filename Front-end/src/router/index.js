@@ -27,17 +27,17 @@ const router = createRouter({
 });
 
 // 注册全局前置守卫
-router.beforeEach((to, from, next) => {
-  // token exsists
-  if (!localStorage.getItem("token")) {
-    if (to.path == "/" || to.path == "/register") {
-      next();
-    } else {
-      next("/");
-    }
-  } else {
-    next();
-  }
-});
+// token exsists
+// router.beforeEach((to, from, next) => {
+//   if (!localStorage.getItem("token")) {
+//     if (to.path == "/" || to.path == "/register") {
+//       next();
+//     } else {
+//       next("/");
+//     }
+//   } else {
+//     next();
+//   }
+// });
 
 export default router;

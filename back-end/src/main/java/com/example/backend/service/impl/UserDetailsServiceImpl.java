@@ -41,6 +41,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = Optional.ofNullable(userMapper.selectOne(wrapper))
                 .orElseThrow(() -> new UsernameNotFoundException("The user name or password is incorrect"));
 
+
+        // Get rights of the current user.
+
+
         return new LoginUser(user);
     }
 }

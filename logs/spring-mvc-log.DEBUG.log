@@ -1,0 +1,2 @@
+2024-04-13 16:59:21.788 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-04-13 16:59:23.229 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
