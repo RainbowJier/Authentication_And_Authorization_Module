@@ -10,6 +10,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -41,11 +44,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = Optional.ofNullable(userMapper.selectOne(wrapper))
                 .orElseThrow(() -> new UsernameNotFoundException("The user name or password is incorrect"));
 
+        // Get permissions of the current user from MYSQL.
+        List<String> list = new ArrayList<>(Arrays.asList("test", "admin"));  //  ************************
 
-        // Get rights of the current user.
-
-
-        return new LoginUser(user);
+        return new LoginUser(user, list);
     }
 }
 

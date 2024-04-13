@@ -27,3 +27,990 @@
 2024-04-13 16:59:24.323 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
 2024-04-13 16:59:24.325 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 2024-04-13 17:00:39.965 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:31:04.058 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 17320 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:31:04.085 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:31:04.113 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:31:04.113 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:31:04.141 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:31:04.976 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:31:04.978 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:31:05.001 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:31:05.406 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:31:05.413 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:31:05.414 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:31:05.414 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:31:05.510 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:31:05.511 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 1398 ms
+2024-04-13 23:31:05.870 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:31:06.120 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:31:06.578 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:31:06.804 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21018117, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ae277ab, org.springframework.security.web.header.HeaderWriterFilter@36e880d2, org.springframework.web.filter.CorsFilter@379fd47e, org.springframework.security.web.authentication.logout.LogoutFilter@2381761, com.example.backend.Filter.JwtAuthenticationTokenFilter@1a121f3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5452d8f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5159b84d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44a57191, org.springframework.security.web.session.SessionManagementFilter@62dea9d4, org.springframework.security.web.access.ExceptionTranslationFilter@6cc62528, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b154658]
+2024-04-13 23:31:06.841 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:31:06.853 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:31:06.955 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:06.957 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:06.972 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:06.972 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:06.972 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:06.994 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 3.25 seconds (JVM running for 4.088)
+2024-04-13 23:31:06.995 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:31:06.998 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:31:38.754 | INFO  | Thread-10 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:31:38.807 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-04-13 23:31:38.811 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-04-13 23:31:38.942 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 17320 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:31:38.942 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:31:39.136 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:31:39.137 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:31:39.141 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:31:39.205 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:31:39.206 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:31:39.206 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:31:39.206 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:31:39.213 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:31:39.213 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 269 ms
+2024-04-13 23:31:39.250 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-04-13 23:31:39.261 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-04-13 23:31:39.328 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:31:39.362 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e902785, org.springframework.security.web.context.SecurityContextPersistenceFilter@492f55b, org.springframework.security.web.header.HeaderWriterFilter@16332799, org.springframework.web.filter.CorsFilter@4b9d8a84, org.springframework.security.web.authentication.logout.LogoutFilter@1cd3695c, com.example.backend.Filter.JwtAuthenticationTokenFilter@4d67661f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a130d33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@513ec07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f08dba6, org.springframework.security.web.session.SessionManagementFilter@1617000, org.springframework.security.web.access.ExceptionTranslationFilter@36770f1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c5af4c9]
+2024-04-13 23:31:39.374 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:31:39.376 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:31:39.389 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:39.389 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:39.394 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:39.394 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:39.394 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:31:39.399 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.487 seconds (JVM running for 36.493)
+2024-04-13 23:31:39.399 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:31:39.401 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:31:39.401 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:33:48.742 | INFO  | Thread-18 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:33:48.797 | INFO  | Thread-18 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown initiated...
+2024-04-13 23:33:48.803 | INFO  | Thread-18 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown completed.
+2024-04-13 23:33:48.954 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 17320 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:33:48.954 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:33:49.158 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:33:49.158 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:33:49.164 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:33:49.246 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:33:49.247 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:33:49.247 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:33:49.248 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:33:49.257 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:33:49.258 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 302 ms
+2024-04-13 23:33:49.307 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Starting...
+2024-04-13 23:33:49.320 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Start completed.
+2024-04-13 23:33:49.419 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:33:49.466 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@210a3c85, org.springframework.security.web.context.SecurityContextPersistenceFilter@197b88f0, org.springframework.security.web.header.HeaderWriterFilter@7fee206a, org.springframework.web.filter.CorsFilter@2d094316, org.springframework.security.web.authentication.logout.LogoutFilter@67c7a616, com.example.backend.Filter.JwtAuthenticationTokenFilter@3d4c1461, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a06046b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64658431, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76e57810, org.springframework.security.web.session.SessionManagementFilter@4bc1ab87, org.springframework.security.web.access.ExceptionTranslationFilter@6ec3a9b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9d1bcfa]
+2024-04-13 23:33:49.479 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:33:49.480 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:33:49.491 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:49.492 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:49.496 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:49.496 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:49.496 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:49.501 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.583 seconds (JVM running for 166.595)
+2024-04-13 23:33:49.501 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:33:49.502 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:33:49.502 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:33:50.911 | INFO  | Thread-23 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:33:50.962 | INFO  | Thread-23 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown initiated...
+2024-04-13 23:33:50.967 | INFO  | Thread-23 | c.z.h.HikariDataSource >>>>> HikariPool-3 - Shutdown completed.
+2024-04-13 23:33:51.115 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 17320 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:33:51.116 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:33:51.267 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:33:51.267 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:33:51.270 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:33:51.311 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:33:51.311 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:33:51.311 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:33:51.311 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:33:51.318 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:33:51.318 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 201 ms
+2024-04-13 23:33:51.355 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Starting...
+2024-04-13 23:33:51.364 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-4 - Start completed.
+2024-04-13 23:33:51.444 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:33:51.476 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b4cb98e, org.springframework.security.web.context.SecurityContextPersistenceFilter@13cceaeb, org.springframework.security.web.header.HeaderWriterFilter@20c30d29, org.springframework.web.filter.CorsFilter@47f7f46e, org.springframework.security.web.authentication.logout.LogoutFilter@7da44457, com.example.backend.Filter.JwtAuthenticationTokenFilter@3fbe8f03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@631d366e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b8fd561, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10a267b2, org.springframework.security.web.session.SessionManagementFilter@47f2bc83, org.springframework.security.web.access.ExceptionTranslationFilter@3b997713, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57007dc4]
+2024-04-13 23:33:51.487 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:33:51.489 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:33:51.504 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:51.504 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:51.507 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:51.507 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:51.507 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:33:51.511 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.423 seconds (JVM running for 168.606)
+2024-04-13 23:33:51.511 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:33:51.512 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:33:51.513 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:34:13.258 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13 23:34:13.258 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-04-13 23:34:13.259 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-04-13 23:34:36.577 | ERROR | http-nio-8080-exec-3 | o.a.c.c.C.[.[.[.[dispatcherServlet] >>>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.alibaba.fastjson.JSONException: autoType is not support. org.springframework.security.core.authority.SimpleGrantedAuthority
+	at com.alibaba.fastjson.parser.ParserConfig.checkAutoType(ParserConfig.java:830) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:596) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseArray(ArrayListTypeFieldDeserializer.java:162) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseField(ArrayListTypeFieldDeserializer.java:65) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:911) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:656) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:357) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1325) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer.deserialze(JavaObjectDeserializer.java:45) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:630) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:354) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:258) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:471) ~[fastjson-1.2.33.jar:?]
+	at com.example.backend.uitil.FastJsonRedisSerializer.deserialize(FastJsonRedisSerializer.java:52) ~[classes/:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:335) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at com.example.backend.uitil.RedisCache.getCacheObject(RedisCache.java:73) ~[classes/:?]
+	at com.example.backend.Filter.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:59) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+2024-04-13 23:35:14.259 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:35:17.069 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 5684 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:35:17.075 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:35:17.101 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:35:17.101 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:35:17.116 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:35:17.656 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:35:17.659 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:35:17.679 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:35:18.066 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:35:18.072 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:35:18.073 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:35:18.073 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:35:18.118 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:35:18.118 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 1016 ms
+2024-04-13 23:35:18.450 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:35:18.625 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:35:19.029 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:35:19.200 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c96b2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@52e8dacb, org.springframework.security.web.header.HeaderWriterFilter@17957a4f, org.springframework.web.filter.CorsFilter@599b1e73, org.springframework.security.web.authentication.logout.LogoutFilter@364a401e, com.example.backend.Filter.JwtAuthenticationTokenFilter@7b378f42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39fc852d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e70d69b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fc6aa04, org.springframework.security.web.session.SessionManagementFilter@fee0762, org.springframework.security.web.access.ExceptionTranslationFilter@527a979f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@226b7c9]
+2024-04-13 23:35:19.234 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:35:19.246 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:35:19.341 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:35:19.344 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:35:19.348 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:35:19.349 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:35:19.349 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:35:19.455 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.664 seconds (JVM running for 4.021)
+2024-04-13 23:35:19.457 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:35:19.459 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:35:21.042 | INFO  | http-nio-8080-exec-2 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13 23:35:21.042 | INFO  | http-nio-8080-exec-2 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-04-13 23:35:21.043 | INFO  | http-nio-8080-exec-2 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-04-13 23:35:21.416 | ERROR | http-nio-8080-exec-2 | o.a.c.c.C.[.[.[.[dispatcherServlet] >>>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.alibaba.fastjson.JSONException: autoType is not support. org.springframework.security.core.authority.SimpleGrantedAuthority
+	at com.alibaba.fastjson.parser.ParserConfig.checkAutoType(ParserConfig.java:830) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:596) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseArray(ArrayListTypeFieldDeserializer.java:162) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseField(ArrayListTypeFieldDeserializer.java:65) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:911) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:656) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1083) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_LoginUser.deserialze(Unknown Source) ~[?:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:357) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1325) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer.deserialze(JavaObjectDeserializer.java:45) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:630) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:354) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:258) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:471) ~[fastjson-1.2.33.jar:?]
+	at com.example.backend.uitil.FastJsonRedisSerializer.deserialize(FastJsonRedisSerializer.java:52) ~[classes/:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:335) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at com.example.backend.uitil.RedisCache.getCacheObject(RedisCache.java:73) ~[classes/:?]
+	at com.example.backend.Filter.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:59) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+2024-04-13 23:36:45.175 | WARN  | HikariPool-1 housekeeper | c.z.h.p.HikariPool >>>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s440ms916µs600ns).
+2024-04-13 23:37:29.557 | ERROR | http-nio-8080-exec-4 | o.a.c.c.C.[.[.[.[dispatcherServlet] >>>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.alibaba.fastjson.JSONException: autoType is not support. org.springframework.security.core.authority.SimpleGrantedAuthority
+	at com.alibaba.fastjson.parser.ParserConfig.checkAutoType(ParserConfig.java:830) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:596) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseArray(ArrayListTypeFieldDeserializer.java:162) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseField(ArrayListTypeFieldDeserializer.java:65) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:911) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:656) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1083) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_LoginUser.deserialze(Unknown Source) ~[?:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:357) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1325) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer.deserialze(JavaObjectDeserializer.java:45) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:630) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:354) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:258) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:471) ~[fastjson-1.2.33.jar:?]
+	at com.example.backend.uitil.FastJsonRedisSerializer.deserialize(FastJsonRedisSerializer.java:52) ~[classes/:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:335) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at com.example.backend.uitil.RedisCache.getCacheObject(RedisCache.java:73) ~[classes/:?]
+	at com.example.backend.Filter.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:59) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+2024-04-13 23:37:33.995 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:37:36.762 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 11112 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:37:36.768 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:37:36.789 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:37:36.789 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:37:36.799 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:37:37.265 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:37:37.266 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:37:37.279 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:37:37.596 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:37:37.602 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:37:37.602 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:37:37.602 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:37:37.637 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:37:37.637 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 847 ms
+2024-04-13 23:37:37.895 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:37:38.050 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:37:38.447 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:37:38.593 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@197a3c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@29cdd1af, org.springframework.security.web.header.HeaderWriterFilter@1f6a6f85, org.springframework.web.filter.CorsFilter@a5a182f, org.springframework.security.web.authentication.logout.LogoutFilter@56767421, com.example.backend.Filter.JwtAuthenticationTokenFilter@25f98561, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2197a567, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19885ffd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bb5d486, org.springframework.security.web.session.SessionManagementFilter@2bdff240, org.springframework.security.web.access.ExceptionTranslationFilter@1cff12cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@164a784c]
+2024-04-13 23:37:38.622 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:37:38.631 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:37:38.721 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:37:38.723 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:37:38.729 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:37:38.729 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:37:38.730 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:37:38.740 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.203 seconds (JVM running for 2.834)
+2024-04-13 23:37:38.741 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:37:38.743 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:38:41.031 | INFO  | Thread-9 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:38:41.090 | INFO  | Thread-9 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-04-13 23:38:41.094 | INFO  | Thread-9 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-04-13 23:38:41.239 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 11112 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:38:41.240 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:38:41.406 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:38:41.406 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:38:41.409 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:38:41.470 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:38:41.471 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:38:41.471 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:38:41.471 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:38:41.478 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:38:41.478 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 237 ms
+2024-04-13 23:38:41.486 | WARN  | restartedMain | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext >>>>> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfig' defined in file [D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes\com\example\backend\configuration\SecurityConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.backend.configuration.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@654ed2c]
+2024-04-13 23:38:41.486 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Stopping service [Tomcat]
+2024-04-13 23:38:41.491 | INFO  | restartedMain | o.s.b.a.l.ConditionEvaluationReportLoggingListener >>>>> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-13 23:38:41.505 | ERROR | restartedMain | o.s.b.SpringApplication >>>>> Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfig' defined in file [D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes\com\example\backend\configuration\SecurityConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.backend.configuration.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@654ed2c]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) [spring-boot-2.5.0.jar:2.5.0]
+	at com.example.backend.BackEndApplication.main(BackEndApplication.java:11) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.backend.configuration.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@654ed2c]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/example/backend/Filter/JwtAuthenticationTokenFilter;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2611) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredFields(Class.java:1944) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 20 more
+Caused by: java.lang.ClassNotFoundException: com.example.backend.Filter.JwtAuthenticationTokenFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_392]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2611) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredFields(Class.java:1944) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 20 more
+2024-04-13 23:38:46.933 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 9100 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:38:46.968 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:38:46.987 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:38:46.987 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:38:46.997 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:38:47.455 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:38:47.456 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:38:47.468 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:38:47.748 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:38:47.753 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:38:47.753 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:38:47.753 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:38:47.829 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:38:47.829 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 841 ms
+2024-04-13 23:38:48.072 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:38:48.238 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:38:48.558 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:38:48.713 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f04e96, org.springframework.security.web.context.SecurityContextPersistenceFilter@199401a1, org.springframework.security.web.header.HeaderWriterFilter@6ad821c8, org.springframework.web.filter.CorsFilter@1ae23337, org.springframework.security.web.authentication.logout.LogoutFilter@2a771d14, com.example.backend.Filter.JwtAuthenticationTokenFilter@ed2291, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65150cda, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fd029c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a57aee7, org.springframework.security.web.session.SessionManagementFilter@41ea1259, org.springframework.security.web.access.ExceptionTranslationFilter@b3fba8d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75f1b4c8]
+2024-04-13 23:38:48.744 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:38:48.754 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:38:48.840 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:38:48.843 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:38:48.848 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:38:48.848 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:38:48.848 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:38:48.858 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.136 seconds (JVM running for 2.729)
+2024-04-13 23:38:48.859 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:38:48.861 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:39:17.609 | INFO  | Thread-9 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:39:17.676 | INFO  | Thread-9 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-04-13 23:39:17.680 | INFO  | Thread-9 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-04-13 23:39:17.823 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 9100 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:39:17.823 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:39:18.045 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:39:18.046 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:39:18.053 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:39:18.123 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:39:18.123 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:39:18.124 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:39:18.124 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:39:18.132 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:39:18.133 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 307 ms
+2024-04-13 23:39:18.149 | WARN  | restartedMain | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext >>>>> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2024-04-13 23:39:18.152 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Stopping service [Tomcat]
+2024-04-13 23:39:18.156 | INFO  | restartedMain | o.s.b.a.l.ConditionEvaluationReportLoggingListener >>>>> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-13 23:39:18.168 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginService in com.example.backend.controller.UserController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-04-13 23:39:19.621 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 9100 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:39:19.621 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:39:19.762 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:39:19.763 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:39:19.766 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:39:19.796 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4731126c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:39:19.798 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:39:19.825 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:39:19.825 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:39:19.826 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:39:19.826 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:39:19.832 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:39:19.832 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 210 ms
+2024-04-13 23:39:19.880 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-04-13 23:39:19.892 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-04-13 23:39:19.997 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:39:20.060 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a0a4af5, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cbaa4de, org.springframework.security.web.header.HeaderWriterFilter@7007f069, org.springframework.web.filter.CorsFilter@1397d885, org.springframework.security.web.authentication.logout.LogoutFilter@63dc1431, com.example.backend.Filter.JwtAuthenticationTokenFilter@390bba2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39f0df5f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76bbe4b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ac72979, org.springframework.security.web.session.SessionManagementFilter@ad0d7d0, org.springframework.security.web.access.ExceptionTranslationFilter@5995955b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@546d479c]
+2024-04-13 23:39:20.076 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:39:20.077 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:39:20.093 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:39:20.094 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:39:20.097 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:39:20.097 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:39:20.097 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:39:20.101 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.506 seconds (JVM running for 33.972)
+2024-04-13 23:39:20.101 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:39:20.103 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:39:20.103 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:40:25.727 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:40:27.815 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 16948 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:40:27.821 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:40:27.872 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:40:27.872 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:40:27.888 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:40:28.408 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:40:28.409 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:40:28.422 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:40:28.606 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3c5fb069' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:40:28.610 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:40:28.790 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:40:28.795 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:40:28.795 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:40:28.795 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:40:28.832 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:40:28.832 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 959 ms
+2024-04-13 23:40:29.095 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:40:29.252 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:40:29.676 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:40:29.838 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fd0baf5, org.springframework.security.web.context.SecurityContextPersistenceFilter@44d55a55, org.springframework.security.web.header.HeaderWriterFilter@2cd3d31b, org.springframework.web.filter.CorsFilter@530543e3, org.springframework.security.web.authentication.logout.LogoutFilter@5a00af0c, com.example.backend.Filter.JwtAuthenticationTokenFilter@5adce0dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@565df18a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c96b5ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b77618, org.springframework.security.web.session.SessionManagementFilter@7c5daa1a, org.springframework.security.web.access.ExceptionTranslationFilter@53dabd52, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1069cee4]
+2024-04-13 23:40:29.872 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:40:29.882 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:40:29.969 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:40:29.971 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:40:29.976 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:40:29.976 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:40:29.977 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:40:29.987 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.491 seconds (JVM running for 3.206)
+2024-04-13 23:40:29.989 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:40:29.992 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:40:31.950 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13 23:40:31.951 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-04-13 23:40:31.952 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-04-13 23:40:32.363 | ERROR | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[.[dispatcherServlet] >>>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.alibaba.fastjson.JSONException: autoType is not support. org.springframework.security.core.authority.SimpleGrantedAuthority
+	at com.alibaba.fastjson.parser.ParserConfig.checkAutoType(ParserConfig.java:830) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:596) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseArray(ArrayListTypeFieldDeserializer.java:162) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseField(ArrayListTypeFieldDeserializer.java:65) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:911) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:656) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1083) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_LoginUser.deserialze(Unknown Source) ~[?:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:357) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1325) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer.deserialze(JavaObjectDeserializer.java:45) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:630) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:354) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:258) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:471) ~[fastjson-1.2.33.jar:?]
+	at com.example.backend.uitil.FastJsonRedisSerializer.deserialize(FastJsonRedisSerializer.java:52) ~[classes/:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:335) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at com.example.backend.uitil.RedisCache.getCacheObject(RedisCache.java:73) ~[classes/:?]
+	at com.example.backend.Filter.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:59) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+2024-04-13 23:41:07.887 | INFO  | Thread-10 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:41:07.947 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-04-13 23:41:07.950 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-04-13 23:41:08.238 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 16948 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:41:08.239 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:41:08.502 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:41:08.503 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:41:08.508 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:41:08.543 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3ebc88ce' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:41:08.543 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:41:08.583 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:41:08.583 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:41:08.584 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:41:08.584 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:41:08.593 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:41:08.593 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 353 ms
+2024-04-13 23:41:08.652 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-04-13 23:41:08.663 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-04-13 23:41:08.779 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:41:08.852 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7abf4646, org.springframework.security.web.context.SecurityContextPersistenceFilter@583b5e4a, org.springframework.security.web.header.HeaderWriterFilter@864dac1, org.springframework.web.filter.CorsFilter@49a4ab58, org.springframework.security.web.authentication.logout.LogoutFilter@231ad6f0, com.example.backend.Filter.JwtAuthenticationTokenFilter@563a839c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45725597, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b6e2d2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ac0ba14, org.springframework.security.web.session.SessionManagementFilter@46318899, org.springframework.security.web.access.ExceptionTranslationFilter@38f4a40e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53e5f65]
+2024-04-13 23:41:08.872 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:41:08.874 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:41:08.893 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:08.894 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:08.898 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:08.898 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:08.898 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:08.902 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.703 seconds (JVM running for 42.121)
+2024-04-13 23:41:08.903 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:41:08.905 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:41:08.906 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:41:19.601 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:41:23.482 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 3212 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:41:23.487 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:41:23.507 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:41:23.507 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:41:23.518 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:41:23.990 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:41:23.992 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:41:24.005 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:41:24.177 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3bdbdfad' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:41:24.179 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:41:24.358 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:41:24.363 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:41:24.364 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:41:24.364 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:41:24.398 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:41:24.399 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 891 ms
+2024-04-13 23:41:24.656 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:41:24.802 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:41:25.214 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:41:25.371 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39a9dc6b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eb72b50, org.springframework.security.web.header.HeaderWriterFilter@4434e82e, org.springframework.web.filter.CorsFilter@48ee9a44, org.springframework.security.web.authentication.logout.LogoutFilter@5ee81378, com.example.backend.Filter.JwtAuthenticationTokenFilter@1f7e456f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4446a6ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f9d825c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c090c7, org.springframework.security.web.session.SessionManagementFilter@37d652af, org.springframework.security.web.access.ExceptionTranslationFilter@13b19d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a9d3637]
+2024-04-13 23:41:25.405 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:41:25.416 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:41:25.530 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:25.532 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:25.538 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:25.538 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:25.538 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:41:25.549 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.313 seconds (JVM running for 2.953)
+2024-04-13 23:41:25.550 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:41:25.552 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:41:27.338 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13 23:41:27.338 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-04-13 23:41:27.339 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 0 ms
+2024-04-13 23:41:27.772 | ERROR | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[.[dispatcherServlet] >>>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.alibaba.fastjson.JSONException: autoType is not support. org.springframework.security.core.authority.SimpleGrantedAuthority
+	at com.alibaba.fastjson.parser.ParserConfig.checkAutoType(ParserConfig.java:830) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:596) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:226) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseArray(ArrayListTypeFieldDeserializer.java:162) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer.parseField(ArrayListTypeFieldDeserializer.java:65) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:911) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:656) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1083) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_LoginUser.deserialze(Unknown Source) ~[?:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:222) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:357) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1325) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer.deserialze(JavaObjectDeserializer.java:45) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:630) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:354) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:258) ~[fastjson-1.2.33.jar:?]
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:471) ~[fastjson-1.2.33.jar:?]
+	at com.example.backend.uitil.FastJsonRedisSerializer.deserialize(FastJsonRedisSerializer.java:52) ~[classes/:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeValue(AbstractOperations.java:335) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.5.1.jar:2.5.1]
+	at com.example.backend.uitil.RedisCache.getCacheObject(RedisCache.java:73) ~[classes/:?]
+	at com.example.backend.Filter.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:59) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.0.jar:5.5.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+2024-04-13 23:50:03.033 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:50:42.929 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4944 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:50:42.938 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:50:42.969 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:50:42.969 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:50:42.977 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:50:43.486 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:50:43.487 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:50:43.501 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:50:43.719 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@36c7f156' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:50:43.723 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:50:43.902 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:50:43.908 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:50:43.909 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:50:43.909 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:50:43.949 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:50:43.949 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 980 ms
+2024-04-13 23:50:44.222 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:50:44.397 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:50:44.804 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:50:44.977 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@94e31b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a9ad89b, org.springframework.security.web.header.HeaderWriterFilter@7978a758, org.springframework.web.filter.CorsFilter@5998a415, org.springframework.security.web.authentication.logout.LogoutFilter@3a74417e, com.example.backend.Filter.JwtAuthenticationTokenFilter@5e42918f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fd0fdbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9efe175, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d16a27f, org.springframework.security.web.session.SessionManagementFilter@30d13b5a, org.springframework.security.web.access.ExceptionTranslationFilter@680c12c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52391caa]
+2024-04-13 23:50:45.015 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:50:45.026 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:50:45.120 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:50:45.123 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:50:45.129 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:50:45.129 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:50:45.130 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:50:45.141 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.487 seconds (JVM running for 3.141)
+2024-04-13 23:50:45.142 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:50:45.144 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:51:36.221 | INFO  | Thread-10 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:51:36.290 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown initiated...
+2024-04-13 23:51:36.295 | INFO  | Thread-10 | c.z.h.HikariDataSource >>>>> HikariPool-1 - Shutdown completed.
+2024-04-13 23:51:36.446 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4944 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:51:36.447 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:51:36.629 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:51:36.630 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:51:36.635 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:51:36.682 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7fd1c020' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:51:36.683 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:51:36.735 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:51:36.736 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:51:36.737 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:51:36.737 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:51:36.746 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:51:36.746 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 298 ms
+2024-04-13 23:51:36.841 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Starting...
+2024-04-13 23:51:36.860 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-2 - Start completed.
+2024-04-13 23:51:37.016 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:51:37.092 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5aba77d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dd5898c, org.springframework.security.web.header.HeaderWriterFilter@7ba10f1, org.springframework.web.filter.CorsFilter@7e1ce039, org.springframework.security.web.authentication.logout.LogoutFilter@7ba676cd, com.example.backend.Filter.JwtAuthenticationTokenFilter@f79d252, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a11b45f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d7b1a74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@217bc1c4, org.springframework.security.web.session.SessionManagementFilter@73868684, org.springframework.security.web.access.ExceptionTranslationFilter@2f6d1dd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15929670]
+2024-04-13 23:51:37.108 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:51:37.110 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:51:37.129 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:37.130 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:37.134 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:37.134 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:37.135 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:37.138 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.729 seconds (JVM running for 55.137)
+2024-04-13 23:51:37.139 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:51:37.140 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:51:37.140 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:51:38.524 | INFO  | Thread-19 | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:51:38.578 | INFO  | Thread-19 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown initiated...
+2024-04-13 23:51:38.583 | INFO  | Thread-19 | c.z.h.HikariDataSource >>>>> HikariPool-2 - Shutdown completed.
+2024-04-13 23:51:38.715 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 4944 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:51:38.715 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:51:38.897 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:51:38.897 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:51:38.900 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:51:38.928 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@22294786' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:51:38.928 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:51:38.950 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:51:38.950 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:51:38.950 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:51:38.950 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:51:38.957 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:51:38.957 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 240 ms
+2024-04-13 23:51:39.002 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Starting...
+2024-04-13 23:51:39.012 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-3 - Start completed.
+2024-04-13 23:51:39.103 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:51:39.170 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@478fcd01, org.springframework.security.web.context.SecurityContextPersistenceFilter@34c1e5b3, org.springframework.security.web.header.HeaderWriterFilter@7526367c, org.springframework.web.filter.CorsFilter@3df31ca0, org.springframework.security.web.authentication.logout.LogoutFilter@3aef2a4a, com.example.backend.Filter.JwtAuthenticationTokenFilter@28e1565d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@845ff18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c14adba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1efd0eef, org.springframework.security.web.session.SessionManagementFilter@5f525675, org.springframework.security.web.access.ExceptionTranslationFilter@58dc8c87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@491bea3]
+2024-04-13 23:51:39.186 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:51:39.188 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:51:39.203 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:39.204 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:39.206 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:39.207 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:39.207 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:51:39.210 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 0.525 seconds (JVM running for 57.21)
+2024-04-13 23:51:39.211 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:51:39.212 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener >>>>> Condition evaluation unchanged
+2024-04-13 23:51:39.212 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:52:06.328 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-04-13 23:52:09.585 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Starting BackEndApplication using Java 1.8.0_392 on DESKTOP-SUTOC0N with PID 15680 (D:\GithubProjects\Authentication_And_Authorization_Module\back-end\target\classes started by 30218 in D:\GithubProjects\Authentication_And_Authorization_Module)
+2024-04-13 23:52:09.590 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> No active profile set, falling back to default profiles: default
+2024-04-13 23:52:09.610 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13 23:52:09.611 | INFO  | restartedMain | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor >>>>> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13 23:52:09.619 | WARN  | background-preinit | o.s.h.c.j.Jackson2ObjectMapperBuilder >>>>> For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-04-13 23:52:10.099 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-13 23:52:10.100 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-13 23:52:10.113 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate >>>>> Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-04-13 23:52:10.286 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ad7caa5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:52:10.288 | INFO  | restartedMain | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>>>> Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-13 23:52:10.474 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat initialized with port(s): 8080 (http)
+2024-04-13 23:52:10.479 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:52:10.479 | INFO  | restartedMain | o.a.c.c.StandardService >>>>> Starting service [Tomcat]
+2024-04-13 23:52:10.480 | INFO  | restartedMain | o.a.c.c.StandardEngine >>>>> Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-04-13 23:52:10.518 | INFO  | restartedMain | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring embedded WebApplicationContext
+2024-04-13 23:52:10.518 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext >>>>> Root WebApplicationContext: initialization completed in 907 ms
+2024-04-13 23:52:10.786 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Starting...
+2024-04-13 23:52:10.934 | INFO  | restartedMain | c.z.h.HikariDataSource >>>>> HikariPool-1 - Start completed.
+2024-04-13 23:52:11.361 | INFO  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer >>>>> LiveReload server is running on port 35729
+2024-04-13 23:52:11.523 | INFO  | restartedMain | o.s.s.w.DefaultSecurityFilterChain >>>>> Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@573dc52b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6596a09d, org.springframework.security.web.header.HeaderWriterFilter@938e4dc, org.springframework.web.filter.CorsFilter@444147b1, org.springframework.security.web.authentication.logout.LogoutFilter@4e80fc72, com.example.backend.Filter.JwtAuthenticationTokenFilter@5b074959, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19d1fa50, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31e569be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a8091ec, org.springframework.security.web.session.SessionManagementFilter@63be704f, org.springframework.security.web.access.ExceptionTranslationFilter@70f65f49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7df2a906]
+2024-04-13 23:52:11.556 | INFO  | restartedMain | o.a.c.h.Http11NioProtocol >>>>> Starting ProtocolHandler ["http-nio-8080"]
+2024-04-13 23:52:11.566 | INFO  | restartedMain | o.s.b.w.e.t.TomcatWebServer >>>>> Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-13 23:52:11.668 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:52:11.670 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:52:11.675 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:52:11.675 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:52:11.676 | WARN  | restartedMain | s.d.s.r.o.OperationImplicitParameterReader >>>>> Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-04-13 23:52:11.685 | INFO  | restartedMain | c.e.b.BackEndApplication >>>>> Started BackEndApplication in 2.338 seconds (JVM running for 2.977)
+2024-04-13 23:52:11.686 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state LivenessState changed to CORRECT
+2024-04-13 23:52:11.687 | INFO  | restartedMain | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-04-13 23:52:13.544 | INFO  | http-nio-8080-exec-1 | o.a.c.c.C.[.[.[/] >>>>> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13 23:52:13.544 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Initializing Servlet 'dispatcherServlet'
+2024-04-13 23:52:13.545 | INFO  | http-nio-8080-exec-1 | o.s.w.s.DispatcherServlet >>>>> Completed initialization in 1 ms
+2024-04-13 23:52:17.891 | INFO  | SpringContextShutdownHook | o.s.b.a.ApplicationAvailabilityBean >>>>> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC

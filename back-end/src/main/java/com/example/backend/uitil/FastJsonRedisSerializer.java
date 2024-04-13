@@ -26,7 +26,10 @@ public class FastJsonRedisSerializer<T> implements RedisSerializer<T> {
     private final Class<T> clazz;
 
     static {
+        // 自1.2.25+版本，禁用部分autoType的功能，也就是@type这种指定类型的功能会被限制在一定范围内使用。反序列化对象时，需要检查是否开启autoType。没有开启就会报错。
+        // Reference: https://blog.51cto.com/u_15851118/6453679
         ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+        ParserConfig.getGlobalInstance().addAccept("org.springframework.security.core.authority.SimpleGrantedAuthority");
     }
 
     public FastJsonRedisSerializer(final Class<T> clazz) {

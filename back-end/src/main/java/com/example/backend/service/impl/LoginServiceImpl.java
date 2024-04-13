@@ -43,7 +43,9 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public ResponseResult login(User user) {
         // Create an authentication token with the user's credentials.
-        // Get the authenticationToken from UserDetailServiceImpl.******************
+
+        // Get the authenticationToken from   UserDetailServiceImpl   .******************
+
         UsernamePasswordAuthenticationToken authenticationToken = new
                 UsernamePasswordAuthenticationToken(user.getUserName(), user.getPassword());
 

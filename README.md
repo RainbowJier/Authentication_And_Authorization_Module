@@ -17,7 +17,9 @@
 
 ## 🙏Todo List
 
-- 🔳 System page
+- Permission API
+    - ✅Permission test.
+    - RBAC Permission model.
 
 ***
 
