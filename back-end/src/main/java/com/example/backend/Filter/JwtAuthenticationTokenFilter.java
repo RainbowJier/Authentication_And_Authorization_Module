@@ -1,6 +1,6 @@
 package com.example.backend.Filter;
 
-import com.example.backend.domain.user.LoginUser;
+import com.example.backend.domain.entity.LoginUser;
 import com.example.backend.service.impl.LoginServiceImpl;
 import com.example.backend.uitil.JwtUtil;
 import com.example.backend.uitil.RedisCache;

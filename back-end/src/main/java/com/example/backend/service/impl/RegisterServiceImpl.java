@@ -1,8 +1,8 @@
 package com.example.backend.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.example.backend.domain.ResponseResult;
-import com.example.backend.domain.user.User;
+import com.example.backend.domain.entity.ResponseResult;
+import com.example.backend.domain.entity.User;
 import com.example.backend.mapper.UserMapper;
 import com.example.backend.service.RegisterService;
 import org.apache.logging.log4j.LogManager;
@@ -65,8 +65,15 @@ public class RegisterServiceImpl implements RegisterService {
                 user.setUpdateTime(parsedDate);
                 user.setDelFlag(0);
 
-                // Insert user into database.
+                // Insert user table
                 int insert = userMapper.insert(user);
+
+
+                // set user_role table.
+
+
+                // set role_menu table.
+
 
                 if (insert <= 0) {
                     throw new RuntimeException("Failed to insert user into database");

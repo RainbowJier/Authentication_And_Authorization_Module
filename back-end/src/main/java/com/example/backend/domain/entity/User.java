@@ -1,4 +1,4 @@
-package com.example.backend.domain.user;
+package com.example.backend.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -18,7 +18,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName(value = "user")
+@TableName(value = "sys_user")
 public class User implements Serializable {
     private static final long serialVersionUID = 705892264344713214L;
     /**

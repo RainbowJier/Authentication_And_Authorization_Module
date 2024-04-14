@@ -1,6 +1,6 @@
 package com.example.backend.service;
 
-import com.example.backend.domain.ResponseResult;
+import com.example.backend.domain.entity.ResponseResult;
 
 /**
  * @Description：TODO

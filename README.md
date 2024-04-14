@@ -19,7 +19,8 @@
 
 - Permission API
     - ✅Permission test.
-    - RBAC Permission model.
+    - ✅RBAC Permission model.
+    - API
 
 ***
 

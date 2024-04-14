@@ -1,4 +1,4 @@
-package com.example.backend.domain.user;
+package com.example.backend.domain.entity;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;

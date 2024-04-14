@@ -1,4 +1,4 @@
-package com.example.backend.domain;
+package com.example.backend.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

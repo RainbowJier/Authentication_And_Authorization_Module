@@ -1,7 +1,7 @@
 package com.example.backend.service.impl;
 
-import com.example.backend.domain.ResponseResult;
-import com.example.backend.domain.user.LoginUser;
+import com.example.backend.domain.entity.LoginUser;
+import com.example.backend.domain.entity.ResponseResult;
 import com.example.backend.service.LogoutService;
 import com.example.backend.uitil.RedisCache;
 import org.apache.logging.log4j.LogManager;

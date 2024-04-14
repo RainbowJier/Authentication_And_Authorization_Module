@@ -1,8 +1,8 @@
 package com.example.backend.service.impl;
 
-import com.example.backend.domain.ResponseResult;
-import com.example.backend.domain.user.LoginUser;
-import com.example.backend.domain.user.User;
+import com.example.backend.domain.entity.LoginUser;
+import com.example.backend.domain.entity.ResponseResult;
+import com.example.backend.domain.entity.User;
 import com.example.backend.service.LoginService;
 import com.example.backend.uitil.JwtUtil;
 import com.example.backend.uitil.RedisCache;
