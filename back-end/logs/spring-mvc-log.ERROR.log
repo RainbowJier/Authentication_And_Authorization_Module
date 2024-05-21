@@ -1,1 +1,28 @@
-2024-04-11 13:06:32.723 | ERROR | http-nio-8080-exec-5 | c.e.b.s.i.LoginServiceImpl >>>>> An error occurred during user registration: 用户名或密码错误
+2024-05-21 22:42:49.529 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-05-21 22:47:30.202 | ERROR | restartedMain | o.s.b.d.LoggingFailureAnalysisReporter >>>>> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

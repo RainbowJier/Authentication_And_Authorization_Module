@@ -27,6 +27,7 @@ import java.util.Date;
 
 @Service
 public class RegisterServiceImpl implements RegisterService {
+
     private static final Logger logger = LogManager.getLogger(RegisterServiceImpl.class);
     @Autowired
     private UserMapper userMapper;
@@ -53,8 +54,11 @@ public class RegisterServiceImpl implements RegisterService {
                 String encryptedPassword = bCryptPasswordEncoder.encode(user.getPassword());
                 user.setPassword(encryptedPassword);
 
-
+                user.setStatus("0");
+                // Regular user
                 user.setUserType("1");
+                user.setDelFlag(0);
+
                 // Get current time.
                 Date currentDate = new Date();
                 SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -70,7 +74,7 @@ public class RegisterServiceImpl implements RegisterService {
 
 
                 // set user_role table.
-
+                
 
                 // set role_menu table.
 

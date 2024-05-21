@@ -7,7 +7,7 @@
 ### Front
 
 - ✅ Login
-- ✅ Router Guard
+- ✅ Router Guarder
 
 ### Back
 
@@ -17,10 +17,12 @@
 
 ## 🙏Todo List
 
-- Permission API
+- **Permission API**
     - ✅Permission test.
     - ✅RBAC Permission model.
-    - API
+    - 🔳 Store token in Cookie.
+
+-
 
 ***
 

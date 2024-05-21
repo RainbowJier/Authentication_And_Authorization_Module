@@ -20,7 +20,6 @@ import java.util.Date;
 @AllArgsConstructor
 @TableName(value = "sys_user")
 public class User implements Serializable {
-    private static final long serialVersionUID = 705892264344713214L;
     /**
      * Primary Key
      */

@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8888
 
 spring:
   application:
@@ -15,11 +15,11 @@ spring:
   springfox:
     documentation:
       swagger-ui:
-        enabled=true:
+        enabled: true
 
   # Database
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-security?characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/management_system?characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

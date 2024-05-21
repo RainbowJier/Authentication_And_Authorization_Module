@@ -1,16 +1,18 @@
-2024-04-11 11:22:12.399 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-11 11:22:13.549 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-11 11:22:20.136 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-11 11:22:20.149 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-11 11:22:20.163 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-11 12:50:22.798 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-11 12:50:22.799 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-11 12:50:22.801 | DEBUG | http-nio-8080-exec-6 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-11 13:04:55.283 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
-2024-04-11 13:04:56.335 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
-2024-04-11 13:05:54.769 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-11 13:05:54.769 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> ==> Parameters: Rainbow(String)
-2024-04-11 13:05:54.785 | DEBUG | http-nio-8080-exec-2 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
-2024-04-11 13:06:32.649 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM user WHERE user_name = ? 
-2024-04-11 13:06:32.650 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> ==> Parameters: (String)
-2024-04-11 13:06:32.650 | DEBUG | http-nio-8080-exec-5 | c.e.b.m.U.selectOne >>>>> <==      Total: 0
+2024-05-21 22:42:47.179 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:42:48.493 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:43:15.614 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:43:16.620 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:44:16.877 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:44:17.863 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:47:28.322 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:47:29.379 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:48:49.313 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:48:50.400 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:48:56.061 | DEBUG | http-nio-8888-exec-2 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE user_name = ? 
+2024-05-21 22:48:56.160 | DEBUG | http-nio-8888-exec-2 | c.e.b.m.U.selectOne >>>>> ==> Parameters: test(String)
+2024-05-21 22:48:56.174 | DEBUG | http-nio-8888-exec-2 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
+2024-05-21 22:55:54.437 | DEBUG | restartedMain | c.e.b.BackEndApplication >>>>> Running with Spring Boot v2.5.0, Spring v5.3.7
+2024-05-21 22:55:55.568 | DEBUG | restartedMain | c.e.b.F.JwtAuthenticationTokenFilter >>>>> Filter 'jwtAuthenticationTokenFilter' configured for use
+2024-05-21 22:56:02.695 | DEBUG | http-nio-8888-exec-1 | c.e.b.m.U.selectOne >>>>> ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phone_number,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE user_name = ? 
+2024-05-21 22:56:02.707 | DEBUG | http-nio-8888-exec-1 | c.e.b.m.U.selectOne >>>>> ==> Parameters: test(String)
+2024-05-21 22:56:02.719 | DEBUG | http-nio-8888-exec-1 | c.e.b.m.U.selectOne >>>>> <==      Total: 1
