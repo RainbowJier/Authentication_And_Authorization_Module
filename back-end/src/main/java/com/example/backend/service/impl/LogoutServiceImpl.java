@@ -29,8 +29,10 @@ public class LogoutServiceImpl implements LogoutService {
             // Get user from SecurityContextHolder
             Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
             LoginUser loginUser = (LoginUser) authentication.getPrincipal();
+
             // Get user id.
             Long userid = loginUser.getUser().getId();
+            
             // Delete user from Redis.
             redisCache.deleteObject("login:" + userid);
 

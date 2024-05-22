@@ -3,7 +3,9 @@ package com.example.backend.service.impl;
 import com.example.backend.domain.entity.LoginUser;
 import com.example.backend.domain.entity.ResponseResult;
 import com.example.backend.domain.entity.User;
+import com.example.backend.domain.vo.UserVo;
 import com.example.backend.service.LoginService;
+import com.example.backend.uitil.BeanCopyUtils;
 import com.example.backend.uitil.JwtUtil;
 import com.example.backend.uitil.RedisCache;
 import org.apache.logging.log4j.LogManager;
@@ -44,7 +46,7 @@ public class LoginServiceImpl implements LoginService {
     public ResponseResult login(User user) {
         // Create an authentication token with the user's credentials.
 
-        // Get the authenticationToken from   UserDetailServiceImpl   .******************
+        // Get the authenticationToken from  UserDetailServiceImpl   .******************
 
         UsernamePasswordAuthenticationToken authenticationToken = new
                 UsernamePasswordAuthenticationToken(user.getUserName(), user.getPassword());
@@ -67,9 +69,14 @@ public class LoginServiceImpl implements LoginService {
             // Store the authentication information in Redis.
             redisCache.setCacheObject("login:" + userId, loginUser);
 
+            // Copy Bean.
+            UserVo userInfo = BeanCopyUtils.copyBean(loginUser.getUser(), UserVo.class);
+
             // Return the JWT to the client.
-            HashMap<String, String> map = new HashMap<>();
+            HashMap<String, Object> map = new HashMap<>();
             map.put("token", jwt);
+            map.put("userInfo", userInfo);
+
             // Return a response result containing the JWT and other information.
             return new ResponseResult<>(200, "登陆成功", map);
 

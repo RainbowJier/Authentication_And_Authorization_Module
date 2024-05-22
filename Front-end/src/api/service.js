@@ -1,7 +1,13 @@
 import axios from "axios";
 import useEnvVariables from "@/hook/useEnvVariables.js";
 import { ElMessage } from "element-plus";
+import { useCookies } from "@vueuse/integrations/useCookies";
 
+/**
+ * Data
+ */
+
+const cookies = useCookies();
 // Get service API URL from environment variables
 const { serviceApi } = useEnvVariables();
 
@@ -24,7 +30,8 @@ http.interceptors.request.use(
         config.url.includes("/user/login")
       )
     ) {
-      config.headers.token = localStorage.getItem("token"); // Add token to header using the Bearer scheme
+      // Add token to header using the Bearer scheme
+      config.headers.token = cookies.get("admin-token");
     }
     return config;
   },
@@ -37,9 +44,10 @@ http.interceptors.request.use(
 // http.interceptors.response.use(
 //   (response) => {
 //     console.log(response.data);
+
 //     // Handle successful responses
-//     if (response.data.code) {
-//       return response.data.data;
+//     if (response.data.code == 200) {
+//       return response;
 //     } else {
 //       // Handle error responses, display error message
 //       ElMessage.error(response.data.message || "请求失败");

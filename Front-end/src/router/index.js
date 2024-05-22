@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-
+import { useCookies } from "@vueuse/integrations/useCookies";
+const cookies = useCookies();
 const routes = [
   {
-    path: "",
+    path: "/",
     component: () => import("@/views/login/layout.vue"),
     children: [
       {
-        path: "",
-        name: "login",
+        path: "/",
         component: () => import("@/components/login/login.vue"),
       },
       {
@@ -18,11 +18,11 @@ const routes = [
   },
   {
     path: "/index",
-    component: () => import("@/views/index/layout.vue"),
+    component: () => import("@/views/home/layout.vue"),
     children: [
       {
         path: "/main",
-        component: () => import("@/components/main/main.vue"),
+        component: () => import("@/components/home/main.vue"),
       },
     ],
   },
@@ -35,16 +35,16 @@ const router = createRouter({
 
 // 注册全局前置守卫
 // token exsists
-// router.beforeEach((to, from, next) => {
-//   if (!localStorage.getItem("token")) {
-//     if (to.path == "/" || to.path == "/register") {
-//       next();
-//     } else {
-//       next("/");
-//     }
-//   } else {
-//     next();
-//   }
-// });
+router.beforeEach((to, from, next) => {
+  if (!cookies.get("admin-token")) {
+    if (to.path == "/" || to.path == "/register") {
+      next();
+    } else {
+      next("/");
+    }
+  } else {
+    next();
+  }
+});
 
 export default router;
