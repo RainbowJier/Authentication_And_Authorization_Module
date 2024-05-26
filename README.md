@@ -6,13 +6,11 @@
 
 🔳✅
 
+- [x] Router Guarder
+- [x] Store token in Cookie.
+- [x] Store and Operate data with pinia.
+- [x] Page dynamic title.
 - [ ] The File Structure of Front and
-
-### Front
-
-- ✅ Router Guarder
-- ✅ Store token in Cookie.
-- ✅ Store and Operate data with pinia.
 -
 
 ### Back

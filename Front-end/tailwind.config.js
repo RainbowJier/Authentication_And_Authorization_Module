@@ -1,7 +1,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      // 自定义宽度类
+      width: {
+        nine_eight: "98%",
+      },
+      height: {
+        nine_eight: "98%",
+      },
+    },
   },
   plugins: [require("daisyui")],
   // daisyUI config (optional - here are the default values)
